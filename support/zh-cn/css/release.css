@@ -1,0 +1,124 @@
+/* @Author       : Junchen Yi
+ * @Designer	 : Taohua-Nong
+ * @Date         : 2022-09-23 01:28:23
+ * @Program name : release.css
+ * Copyright (c) 2022 by Junchen Yi Taohua-Nong, All Rights Reserved.
+ */
+:root{
+	--text-color:#000000;
+	--background-color:#f5f5f7;
+}
+p{
+	font-family: SF Pro Display,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+	
+}
+.release-main{
+	margin-bottom: 80px;
+}
+.release-head{
+	padding-top: 60px;
+	background-color: #000000;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	background:linear-gradient(180deg,rgba(0, 0, 0, 1.0)50%,rgba(0,0,0,.9)100%);
+}
+.release-head-title{
+	margin-bottom: 20px;
+}
+.release-head-title-p{
+	color: #ffffff;
+	    font-size: 1.64706rem;
+	    line-height: 1.14286;
+	    font-weight: 600;
+	    letter-spacing: .007em;
+	    font-family: SF Pro Display,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.release-head-body{
+	
+}
+.release-head-body-p{
+	color: #ffffff;
+	font-size: 1.11765rem;
+	    line-height: 1.4211;
+	    font-weight: 400;
+	    letter-spacing: .012em;
+	    font-family: SF Pro Display,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.release-body{
+	width: 87.5%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.release-body-overall{
+	
+}
+.release-body-overall-title-p{
+	color: var(--text-color);
+	font-size: 23px;
+	font-weight: 600;
+	font-family: SF Pro Display,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+	margin-bottom: 10px;
+}
+.release-body-overall-p{
+	color: var(--text-color);
+	font-size: 17px;
+	font-weight: 400;
+	
+}
+.release-body-updating{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.release-body-updating-title{
+	
+}
+.release-body-updating-title-p{
+	
+	color: var(--text-color);
+	font-size: 23px;
+	font-weight: 600;
+}
+.release-body-up{
+	margin-bottom: 20px;
+}
+.release-body-up-title{
+	margin-top: 40px;
+	
+}
+.release-body-up-title-p{
+	color: var(--text-color);
+	font-size: 20px;
+	font-weight: 600;
+}
+.release-body-up-newKnow{
+	margin-top: 10px;
+}
+.release-body-up-newKnow-p{
+	color: var(--text-color);
+	font-size: 20px;
+	font-weight: 600;
+}
+.release-body-up-li-div{
+	margin-top: 20px;
+}
+.release-body-up-ul{
+	margin-bottom: 15px;
+}
+.release-body-up-li{
+	list-style: disc;
+	margin-left: 20px;
+}
+.release-body-up-li-p{
+	color: var(--text-color);
+	font-size: 16px;
+	
+}
+.release-body-up-li::marker{
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}

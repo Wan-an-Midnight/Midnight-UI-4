@@ -1,0 +1,202 @@
+
+.no-move-h2 {
+  font-size: 72px;
+  font-family: Helvetica;
+  letter-spacing: -.012em;
+  width: 290px;
+  font-weight: normal;
+  position: relative;
+  left: 35%;
+  position: sticky;
+  top: -1px;
+  margin: 100px 0;
+  padding: 0;
+ transform: scale(clamp(0.55, var(--scale), 1));
+/* transform-origin: 0% 0%; */
+}
+
+.pinned {
+/*   color: red; */
+}
+:root {
+  font-size: 32px;
+}
+
+
+
+#container {
+  width: 100%;
+  height: auto;
+}
+
+.h1-move {
+  margin: 0;
+  letter-spacing: -2px;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.h2-move {
+  margin: 0;
+  letter-spacing: -2px;
+  font-size: 55px;
+  font-weight: 600;
+  margin-top: 80px;
+  font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.h3-move {
+  margin: 0;
+  letter-spacing: -2px;
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 0px;
+  font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.h4-move {
+  margin: 0;
+  letter-spacing: -2px;
+  font-size: 55px;
+  font-weight: 600;
+  margin-top: 80px;
+  font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.h5-move {
+  letter-spacing: -2px;
+  font-size: 55px;
+  font-weight: 600;
+  bottom: 60px;
+  position: absolute;
+  width: 768px;
+  font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.h6-move {
+  letter-spacing: -2px;
+  font-size: 55px;
+  font-weight: 600;
+  bottom: 60px;
+  position: absolute;
+  width: 768px;
+  font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.top-text-p {
+  font-size: .9rem;
+  color: #666;
+  line-height: 1.7rem;
+  position: relative;
+  top: .8rem;
+  opacity: 0;
+  animation: .5s swift-up ease-out forwards, .5s fade-in ease-out forwards;
+  animation-delay: .8s;
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1;
+  }
+}
+
+.top-text {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  top: .8rem;
+/*  animation: .3s swift-up ease-in-out forwards;
+ */}
+ 
+
+i {
+  font-style: normal;
+  position: relative;
+  top: 3rem;
+  animation: .5s swift-up ease-in-out forwards;
+}
+
+@keyframes swift-up {
+  to {
+    top: 0rem;
+  }
+}
+
+div:nth-of-type(1) i {
+  animation-delay: 0s;
+}
+
+div:nth-of-type(2) i {
+  animation-delay: .4s;
+}
+
+div:nth-of-type(3) i {
+  animation-delay: .8s;
+}
+
+div:nth-of-type(4) i {
+  animation-delay: 1.2s;
+}
+
+div:nth-of-type(5) i {
+  animation-delay: .1s;
+}
+
+div:nth-of-type(6) i {
+  animation-delay: .1s;
+}
+div:nth-of-type(7) i {
+  animation-delay: .5s;
+}
+
+div:nth-of-type(1) {
+  animation-delay: 0s;
+}
+
+div:nth-of-type(2) {
+  animation-delay: .3s;
+}
+
+div:nth-of-type(3) {
+  animation-delay: .6s;
+}
+
+div:nth-of-type(4) {
+  animation-delay: .8s;
+}
+
+div:nth-of-type(5) {
+  animation-delay: .1s;
+}
+
+div:nth-of-type(6) {
+  animation-delay: .1s;
+}
+div:nth-of-type(7) {
+  animation-delay: .1s;
+}
+
+
+
+.sticky {
+	margin-top: 300px;
+  position: sticky;
+  top: 0;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.half-text-h1 {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  font-size: 69px;
+  color: #000;
+  letter-spacing: -0.3px;
+  
+  background-image: linear-gradient(75deg, rgba(0, 0, 0, 1.0) 0%, rgba(0, 0, 0, 1.0) 33.33%, rgba(0, 0, 0, 0.0) 66.67%, rgba(0, 0, 0, 0.0) 100%);
+  background-size: 300% 100%;
+  background-position-x: calc(100% - var(--percentage));
+  
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
