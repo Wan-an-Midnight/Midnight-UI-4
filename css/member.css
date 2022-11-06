@@ -1,0 +1,163 @@
+/* @Author       : Junchen-Yi
+ * @Designer	 : Taohua-Nong
+ * @Date         : 2022-10-09 19:03:02
+ * @Program name : member.css
+ * Copyright (c) 2022 by Junchen-Yi Taohua-Nong, All Rights Reserved.
+ */
+html{
+	overflow-x: hidden;
+}
+body{
+	overflow-x: hidden!important;
+}
+@font-face {
+	font-family:hwxk;
+	src: url(../font/huawenxinkai.TTF);
+}
+.member-div{
+	width: 87.5%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.member-head{
+/* 	padding-top: 30px; */
+	margin-bottom: 60px;
+}
+.member-head-title{
+	
+}
+.member-head-title-p{
+	font-size: 30px;
+}
+.member-head-img{
+	
+}
+.member-head-img-img{
+	width: 100%;
+	height: 843px;
+	object-fit: cover;
+}
+.member-black{
+	top: 55px;
+	left: 0;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 843px;
+	position: absolute;
+	background: -webkit-gradient(linear,left top,right top,color-stop(8.19%,#000000),color-stop(75.69%,rgba(0,0,0,0)));
+	background: linear-gradient(90deg,#000000 8.19%,rgba(0,0,0,0)75.69%);
+}
+.member-black-top{
+	top: 55px;
+	left: 0;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 230px;
+	position: absolute;
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(21.21%,#000000),to(rgba(0,0,0,0)));
+	background: linear-gradient(180deg,rgba(0,0,0,.85)21.21%,rgba(0,0,0,0)100%);
+}
+.member-head-text{
+	position: absolute;
+	top: 350px;
+	z-index: 300;
+	margin-left: 30px;
+}
+.member-head-text-p1{
+	color: #ffffff;
+	font-size:40px;
+	font-weight: 700;
+	font-family: hwxk;
+	}
+.member-head-text-p2{
+	color: #a8884d;
+	font-size:40px ;
+	font-weight: 700;
+	font-family: hwxk;
+	
+}
+/* translataion */
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    background: #735DE8;
+ */    border-radius: 8px;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+    transition: transform 0.8s ease, opacity 0.8s linear;
+    box-sizing: border-box;
+}
+
+.box:nth-child(even) {
+    transform: translateX(-400%);
+    opacity: 0;
+}
+
+.box:nth-child(odd) {
+    transform: translateX(400%);
+    opacity: 0;
+}
+
+.box.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+.member-info{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-bottom: #b59251 solid 2px;
+	display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    align-items: center;
+}
+.member-info-img{
+	
+}
+.member-info-img-img{
+	width: 160px;
+	height: 130px;
+	border-radius: 23px;
+}
+.member-info-text{
+	margin-left: 30px;
+	width: 100%;
+	    margin-right: 0px;
+}
+.member-info-text-name{
+	color: #b59251;
+}
+.member-info-text-name-p{
+	font-size: 27px;
+	text-align: center;
+	margin-left: 3px;
+	font-weight: 700;
+}
+.member-info-text-jobs{
+	margin-top: 10px;
+}
+.member-info-text-jobs-p{
+	text-align: center;
+	font-size: 18px;
+	color: #000000;
+	font-weight: 400;
+}
+.member-hr{
+	width: 200%;
+	margin-top: 1rem;
+	    margin-bottom: 1rem;
+	    border: 0;
+	    border-top: 2px solid rgba(153, 153, 153, 1.0);
+	margin-left: -20px;
+	margin-right: -20px;
+}
