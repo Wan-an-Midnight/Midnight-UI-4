@@ -23,8 +23,6 @@
 		<link rel="stylesheet" href="https://www.guiplan.com/static/css/bootstrap-gui.min.css">
 		<link rel="stylesheet" href="https://www.guiplan.com/static/css/gui-ui.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
- 		<link rel="stylesheet" href="https://www.guiplan.com/static/css/bootstrap-gui.min.css">
-		<link rel="stylesheet" href="https://www.guiplan.com/static/css/gui-ui.min.css">
 		<script src="../../js/bootstrap.min.js"></script>
 		<script src="../../js/popper.min.js"></script>
 		<script src="../../js/jquery-slim.min.js"></script>
@@ -36,7 +34,7 @@
 			<div id="defaultId1"   class=" gui-xs gui-sm  testBorder  "style="background-color: #F5F5F7;" ></div>
 			<div id="c7a61c"    class=" testBorder  u37cbd"><div><div>
 			<nav class="navbar navbar-expand-md g-dark navbar-dark " style="background-color: #000000;position: absolute!important;">
-			<a class="navbar-brand" href="../../index.html"><img src="../../img/nav_midnight.png" height="25px" width="120px"></a>
+			<a class="navbar-brand" href="../../index.html"><img class="nav-logo" src="../../img/nav_midnight.png"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><svg class="ham hamRotate ham8" viewBox="0 0 100 100" width="35" onclick="this.classList.toggle('active')">
 			<path class="line top" d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path>
 			<path class="line middle" d="m 30,50 h 40"></path>
@@ -54,18 +52,21 @@
                             <li id="cn-index-li8" class="nav-item"><a id="cn-index8" class="nav-link-1"href="./page/update/HT2022211.html">更新</a></li>
                             <li id="cn-index-li9" class="nav-item"><a id="cn-index9" class="nav-link-1"href="./page/update/HT2022211.html">更新</a></li>
                             <li id="cn-index-li10" class="nav-item"><a id="cn-index10" class="nav-link-1"href="./page/update/HT2022211.html">更新</a></li>
+							<li id="version-nav" class="version-nav"></li>
+							
 			      </ul>
 				 </div>
 				</nav>
 			</div>	
 		<body onload="cn_text();cn_url3()">
-
+			<div id="index-main" class="index-main"></div>
+			<div id="skeleton" class="index-main"></div>	
 			 <div class="app">
 			 				<div class="updates-1">
-			 					<h1 class="updates-1-h1">关于版本 4 </h1>
+			 					<h1 class="updates-1-h1">关于 Midnight UI 4 </h1>
 			 					<div class="update-intor">
-			 						<p class="update-intor-p">版本 3 全面的一次大升级，让用户获得不一样的视觉体验，以及程序的交互体验，重新设计的首页，简单明了，方便用户直达要访问的页面，附加的更多功能页面，罗列出了网站的所有功能，以便快速访问。</p>
-			  						<p class="update-intor-p">了解更多 Midningt 网站更新的内容，请访问:&nbsp;<a  style="color: #0070c6;"  class="a-updates" href="HT201222.html">https://www.midnightnth.club/page/updates/HT201222</a></p>
+			 						<p class="update-intor-p">Midnight UI 4.0 将全面启用于2022年7月21日公布的全新 LOGO 以及新的官网名称 Midnight UI<sup>1</sup>。<br>经过由 CEO 亲手设计，CTO 领导下长达半年的设计与开发，Midnight UI 4 带来了相比较于上一版本的全面升级，使用全新的 Bootstrap 5.21 框架，由 Midnight 独立开发的 MNUIwebKit 1.0 框架，带来前所未有全新功能与不同凡响的体验。</p>
+			  						<p class="update-intor-p">了解更多 Midningt 网站更新的内容，请访问:&nbsp;<a  style="color: #0070c6;"  class="a-updates" onclick="cannotopen()">https://www.midnightnth.club/page/updates/HT201222</a></p>
 			  					</div>
 			 				</div>
 			 				<div class="table-update">
@@ -85,44 +86,65 @@
 
 							
 							<div class="update-v">
-												<h2 class="update-v-h2" id="4000">4.0(15H29A)</h2>
+												<h2 class="update-v-h2" id="4000">4.0(15H29A)<sup>*</sup></h2>
 												<div class="update-v-div">
 													<!-- <p class="update-v-p">更新部分页面与修复已知错误</p> -->
 													<p class="update-v-p">更新内容</p>
 													<ul class="update-v-ul">
-														<li style="list-style-type:disc;" class="update-v-li">全局使用最新Bootstrap框架</li>
-														<li style="list-style-type:disc;" class="update-v-li">更换导航栏下拉按钮为动画显示</li>
-														<li style="list-style-type:disc;" class="update-v-li">新增对Pad设备的竖屏适配</li>
-														<li style="list-style-type:disc;" class="update-v-li">将移动端导航栏更改为全屏显示</li>
+														<li style="list-style-type:disc;" class="update-v-li">全局使用最新Bootstrap 5.21框架</li>
+														<li style="list-style-type:disc;" class="update-v-li">搭载由 Midnight 独立开发的 MNUIwebKit 框架</li>
+														<li style="list-style-type:disc;" class="update-v-li">全新设计的技术支持与 Midnight 视频 页面<sup>2</sup></li>
+														<li style="list-style-type:disc;" class="update-v-li">使用新版 LOGO</li>
+														<li style="list-style-type:disc;" class="update-v-li">全新的排行榜功能</li>
 														<li style="list-style-type:disc;" class="update-v-li">首页</li>
 														<p class="update-v-p">重新设计的首页</p>
-														<p class="update-v-p">添加滑动动画效果</p>
-														<p class="update-v-p">添加车队安全运行时间</p>
-														<p class="update-v-p">添加Midnight官方社交账号入口</p>
-														<p class="update-v-p">新增联系我们</p>
-														<p class="update-v-p">新增车队概况</p>
-														<p class="update-v-p">添加使用的品牌列表</p>
-														<p class="update-v-p">一键显示网站全部功能(更多功能按钮)</p>
+														<p class="update-v-p">新增加载骨架屏功能</p>
+														<p class="update-v-p">添加车队排行榜查看卡片</p>
+														<p class="update-v-p">重新设计的语言切换弹窗</p>
+														<p class="update-v-p">新增车队 DNA 板块</p>
 														<li style="list-style-type:disc;" class="update-v-li">车队日程</li>
-														<p class="update-v-p">重新设计的彩色模块</p>
-														<p class="update-v-p">新增参与率信息</p>
-														<p class="update-v-p">可更改的显示模式为列表或网络视图</p>
-														<p class="update-v-p">可开启暗黑模式</p>
+														<p class="update-v-p">重新设计的页面</p>
+														<p class="update-v-p">新增单个日程主题图片</p>
+														<p class="update-v-p">新增单个日程时间，地点，距离显示</p>
+														<p class="update-v-p">新增车队日程主题封面</p>
 														<li style="list-style-type:disc;" class="update-v-li">车辆信息</li>
-														<p class="update-v-p">重新设计的车辆信息界面</p>
+														<p class="update-v-p">使用最新 MNUIWebKit 框架</p>
+														<p class="update-v-p">添加滑动反馈动画</p>
 														<li style="list-style-type:disc;" class="update-v-li">车队成员</li>
-														<p class="update-v-p">重新调整的职务信息</p>
-														<p class="update-v-p">更换第三方照片为本人照片</p>
-														<p class="update-v-p">重新设计的成员简介页面</p>
-														<p class="update-v-p">重新编写的简介内容</p>
-														<li style="list-style-type:disc;" class="update-v-li">资金状态</li>
-														<p class="update-v-p">重新设计的显示界面</p>
-														<p class="update-v-p">自动计算总资产</p>
+														<p class="update-v-p">重新设计的页面</p>
+														<p class="update-v-p">添加成员卡片进入动画</p>
+														<p class="update-v-p">新增车队成员主题封面</p>
+														<li style="list-style-type:disc;" class="update-v-li">排行榜</li>
+														<p class="update-v-p">新增排行榜页面</p>
+														<p class="update-v-p">显示车队四大比赛的单次排行榜</p>
+														<p class="update-v-p">显示比赛中的专业信息</p>
+														<p class="update-v-p">可选择单独显示单个比赛信息</p>
+														<li style="list-style-type:disc;" class="update-v-li">技术支持<sup>2</sup></li>
+														<p class="update-v-p">新增技术支持页面</p>
+														<p class="update-v-p">可访问 MVE<sup>3</sup> 信息</p>
+														<p class="update-v-p">可访问 Midnight Open Source<sup>4</sup> 信息</p>
+														<p class="update-v-p">新增支持文章列表</p>
+														<p class="update-v-p">新增支持反馈错误功能</p>
+														<p class="update-v-p">新增官网通知</p>
+														<li style="list-style-type:disc;" class="update-v-li">Midnight MVE<sup>5</sup></li>
+														<p class="update-v-p">新增 Midnight 漏洞披露网站</p>
+														<p class="update-v-p">罗列了 Midnight 所有软件及硬件中的软件程序中的任意漏洞以及信息安全漏洞的名称</p>
+														<li style="list-style-type:disc;" class="update-v-li">Midnight 视频<sup>2</sup></li>
+														<p class="update-v-p">新增 Midnight 视频 页面</p>
+														<p class="update-v-p">查看 Midnight 官方历史视频以及最新视频</p>
 														<li style="list-style-type:disc;" class="update-v-li">公告/通知</li>
-														<p class="update-v-p">将公告/通知移至导航栏</p>
+														<p class="update-v-p">重新设计的页面</p>
 														<li style="list-style-type:disc;" class="update-v-li">关于我们</li>
-														<p class="update-v-p">更改关于我们内容</p>
-														<p class="update-v-p">调整官网开发人员信息</p>
+														<p class="update-v-p">重新设计的页面</p>
+														<p class="update-v-p">显示官网开发人员信息</p>
+														<p class="update-v-p">新增车队历史显示</p>
+														<li style="list-style-type:disc;" class="update-v-li">关于</li>
+														<p class="update-v-p">新增关于页面</p>
+														<p class="update-v-p">显示当前版本号</p>
+														<p class="update-v-p">显示当前版本 Build ID</p>
+														<p class="update-v-p">查看官网开源许可声明</p>
+														<p class="update-v-p">快速查看当前版本历史更新</p>
+														
 													</ul>
 													
 													<hr class="update-v-hr">
@@ -136,13 +158,26 @@
 			<footer class="footer" >
 								<section class="section-1">
 				
-									<!-- <ol class="section-1 ol">
+									<ol class="section-1 ol">
 										<li class="li-footer-1">
-												1. 以上内容等待填充
+												* 此版本暂不支持电脑端使用，具体支持时间待定。
 										</li>
 										<li class="li-footer-2">
-												2. 目前只能访问首页，其他页面尚未完成
-									</ol> -->
+												1. Midnight UI 的缩写为 MNUI
+										</li>
+										<li class="li-footer-2">
+												2. 将于2023年夏季推出
+										</li>
+										<li class="li-footer-2">
+												3. Midnight Vulnerabilities & Exposures
+										</li>
+										<li class="li-footer-2">
+												4. Midnight 开源官网，将于2023年中推出
+										</li>
+										<li class="li-footer-2">
+												5. 2023年春推出
+										</li>
+									</ol>
 									
 								</section>
 								<div class="section-1-country">

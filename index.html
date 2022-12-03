@@ -16,42 +16,48 @@
 		<link rel="stylesheet" href="./css/footer.css">
 		<link rel="stylesheet" href="./css/index3.css">
 		<link rel="stylesheet" href="./css/skeleton.css">
+		<link rel="stylesheet" href="./css/language-index.css">
         <link rel="stylesheet" href="./css/bootstrap.min.css">
 		<link rel="stylesheet" href="./css/bootstrap-gui.min.css">
+		<link rel="stylesheet" href="./css/MNUIwebkit.css">
         <script src="./js/index.js" type="text/javascript"></script>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"crossorigin="anonymous"></script>
         <meta name="viewport"content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://www.guiplan.com/static/css/gui-ui.min.css">
-        <link rel="stylesheet" href="https://www.guiplan.com/static/css/bootstrap-gui.min.css">
         <script src="./js/bootstrap.min.js"></script>
         <script src="./js/popper.min.js"></script>
         <script src="./js/jquery-slim.min.js"></script>
 		<script src="./js/index.js"></script>
+		<script src="https://img.midnightnth.club/4.0/js/ver.js"></script>
 		<script src="./js/ranking.js"></script>
 		<script src="./js/rankinglist.js"></script>
 		<script src="./js/dna.js"></script>
+		<script src="./js/language-index.js"></script>
         <link rel="stylesheet" type="text/css" href="css/web_index.css" />
 		<link rel="apple-touch-icon" sizes="180x180" href="./img/180.png">
         <title>Midnight｜首页</title>
 
 </head>
 
-<body id="main-body" onload="cn_text();cn_url1();ranking_list()" οncοntextmenu=self.event.returnValue=false onselectstart="return false">
+<body id="main-body" onload="cn_text();cn_url1();index_ver();ranking_data();ranking_list()" οncοntextmenu=self.event.returnValue=false onselectstart="return false">
 	<div class="main">
     <div id="defaultId1" class=" gui-xs gui-sm  testBorder  " style="background-color: #F5F5F7;"></div>
     <div id="c7a61c" class=" testBorder  u37cbd">
         <div>
             <div>
                 <nav class="navbar navbar-expand-md g-dark navbar-dark "style="background-color: #000000;">
-                    <a class="navbar-brand" href="index.html"><img class="nav-logo" src="./img/nav_midnight.png"></a>
+                    <a class="navbar-brand" href="index.html"><img class="nav-logo" src="./img/nav_midnight.png">
+						<svg width="52" height="22" xmlns="http://www.w3.org/2000/svg" class="badge-nav" aria-label="Beta 版" role="img"><path fill-rule="evenodd" d="M41 0c6.075 0 11 4.925 11 11s-4.925 11-11 11H11C4.925 22 0 17.075 0 11S4.925 0 11 0h30Zm-2.534 6.9H35.99l-2.903 8.455h2.152l.558-1.918h2.862l.558 1.918h2.153L38.466 6.9Zm-5.246 0h-7.036v1.642h2.495v6.813h2.047V8.542h2.494V6.9Zm-8.305 0h-5.79v8.455h5.79v-1.642h-3.742v-1.859h3.523v-1.511h-3.523v-1.8h3.742V6.9Zm-10.313 0H10.7v8.455h4.016c.61 0 1.137-.1 1.58-.298.444-.199.787-.48 1.03-.844.243-.365.364-.793.364-1.285v-.012c0-.357-.087-.683-.26-.977a2.048 2.048 0 0 0-.706-.714 2.116 2.116 0 0 0-1.008-.304v-.11c.3-.042.568-.149.804-.32.236-.17.423-.383.562-.64.139-.256.208-.535.208-.836v-.011c0-.435-.107-.81-.32-1.125-.215-.314-.521-.556-.92-.725-.4-.17-.883-.254-1.448-.254Zm-1.855 4.728h1.382c.317 0 .585.043.804.128.218.086.384.211.498.377.113.166.17.37.17.611v.012c0 .37-.124.653-.372.85-.248.197-.608.295-1.08.295h-1.402v-2.273Zm24.536-2.92.945 3.251h-2.003l.947-3.251h.11Zm-24.536-.355h1.317c.386 0 .687.09.901.267.215.178.323.424.323.736v.012c0 .313-.116.558-.348.735-.231.177-.56.266-.984.266h-1.209V8.353Z"></path></svg>
+					</a>
                     <div class="language-2">
-                        <form action="" method="get">
+                        <!-- <form action="" method="get">
                             <select class="language" name="" onchange="javascript:if (this.options[this.selectedIndex].value != '')window.open(this.options[this.selectedIndex].value,'_self');this.options[0].selected;">
                                 <option value="https://www.en.midnightnth.club">英</option>
                                 <option value="" selected="selected">中</option>
                             </select>
-                        </form>
+                        </form> -->
+						<div class="language-index-nav">
+							<a onclick="open_language()">中</a>
+						</div>
                         <button id="nopen" herf="javascript:js_navopen()"  class="navbar-toggler"
                             type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><svg
                                 class="ham hamRotate ham8" viewBox="0 0 100 100" width="35"
@@ -181,17 +187,20 @@
 					<div id="ranking-climb" class="ranking-body" style="display:inherit;">
 						<div  class="ranking-climb-body">
 							<div class="ranking-climb-name-list">
-								<ul class="ranking-climb-ul">
+								<ul class="ranking-climb-ul" id="ranking-data-climb">
 									<li id="ranking-climb-1" class="ranking-climb-li">1.%drank1</li>
 									<li id="ranking-climb-2" class="ranking-climb-li">2.%drank2</li>
 									<li id="ranking-climb-3" class="ranking-climb-li">3.%drank3</li>
 									<li id="ranking-climb-4" class="ranking-climb-li">4.%drank4</li>
 									<li id="ranking-climb-5" class="ranking-climb-li">5.%drank5</li>
 								</ul>
+								<ul class="ranking-nonedata" id="ranking-nonedata-climb" style="display: none;">
+									<li class="ranking-nonedata-li">暂无数据</li>
+								</ul>
 							</div>
 							<div class="ranking-climb-img">
 								<div class="ranking-cilmb-img-div">
-									<img class="ranking-climb-img-img" src="./img/ranking-climb-img.JPG">
+									<img class="ranking-climb-img-img" src="./img/ranking-climb-img.png">
 								</div>
 							</div>
 						</div>
@@ -202,17 +211,20 @@
 					<div class="ranking-body" id="ranking-go" style="display:none;">
 						<div class="ranking-climb-body">
 							<div class="ranking-climb-name-list">
-								<ul class="ranking-climb-ul">
+								<ul class="ranking-climb-ul" id="ranking-data-go">
 									<li id="ranking-go-1" class="ranking-climb-li">1.%dgo1</li>
 									<li id="ranking-go-2" class="ranking-climb-li">2.%dgo2</li>
 									<li id="ranking-go-3" class="ranking-climb-li">3.%dgo3</li>
 									<li id="ranking-go-4" class="ranking-climb-li">4.%dgo4</li>
 									<li id="ranking-go-5" class="ranking-climb-li">5.%dgo5</li>
 								</ul>
+								<ul class="ranking-nonedata" id="ranking-nonedata-go"  style="display: none;">
+									<li class="ranking-nonedata-li">暂无数据</li>
+								</ul>
 							</div>
 							<div class="ranking-climb-img">
 								<div class="ranking-cilmb-img-div">
-									<img class="ranking-climb-img-img" src="./img/ranking-climb-img.JPG">
+									<img class="ranking-climb-img-img" src="./img/ranking-climb-img.png">
 								</div>
 							</div>
 						</div>
@@ -223,17 +235,20 @@
 					<div class="ranking-body" id="ranking-keep" style="display:none;">
 						<div class="ranking-climb-body">
 							<div class="ranking-climb-name-list">
-								<ul class="ranking-climb-ul">
+								<ul class="ranking-climb-ul" id="ranking-data-keep">
 									<li id="ranking-keep-1" class="ranking-climb-li">1.%dkeep1</li>
 									<li id="ranking-keep-2" class="ranking-climb-li">2.%dkeep2</li>
 									<li id="ranking-keep-3" class="ranking-climb-li">3.%dkeep3</li>
 									<li id="ranking-keep-4" class="ranking-climb-li">4.%dkeep4</li>
 									<li id="ranking-keep-5" class="ranking-climb-li">5.%dkeep5</li>
 								</ul>
+								<ul class="ranking-nonedata" id="ranking-nonedata-keep"  style="display: none;">
+									<li class="ranking-nonedata-li">暂无数据</li>
+								</ul>
 							</div>
 							<div class="ranking-climb-img">
 								<div class="ranking-cilmb-img-div">
-									<img class="ranking-climb-img-img" src="./img/ranking-climb-img.JPG">
+									<img class="ranking-climb-img-img" src="./img/ranking-climb-img.png">
 								</div>
 							</div>
 						</div>
@@ -244,17 +259,20 @@
 					<div class="ranking-body" id="ranking-tool" style="display:none;">
 						<div class="ranking-climb-body">
 							<div class="ranking-climb-name-list">
-								<ul class="ranking-climb-ul">
+								<ul class="ranking-climb-ul" id="ranking-data-tool">
 									<li id="ranking-tool-1" class="ranking-climb-li">1.%dtool1</li>
 									<li id="ranking-tool-2" class="ranking-climb-li">2.%dtool2</li>
 									<li id="ranking-tool-3" class="ranking-climb-li">3.%dtool3</li>
 									<li id="ranking-tool-4" class="ranking-climb-li">4.%dtool4</li>
 									<li id="ranking-tool-5" class="ranking-climb-li">5.%dtool5</li>
 								</ul>
+								<ul class="ranking-nonedata" id="ranking-nonedata-tool" style="display: none;">
+									<li class="ranking-nonedata-li">暂无数据</li>
+								</ul>
 							</div>
 							<div class="ranking-climb-img">
 								<div class="ranking-cilmb-img-div">
-									<img class="ranking-climb-img-img" src="./img/ranking-climb-img.JPG">
+									<img class="ranking-climb-img-img" src="./img/ranking-climb-img.png">
 								</div>
 							</div>
 						</div>
@@ -304,7 +322,8 @@
 					</div>
 					<div class="dna-card-text">
 						<div class="dna-card-text-div">
-							<p class="dna-class-text-p">热爱文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字</p>
+							<p class="dna-class-text-p">对于骑行的热爱已经不用多说了，俱乐部创立的初心就在于一群喜欢骑车的人聚在一块，友好交流友好沟通。不变的热忱和不变的信念伴随在我们左右，将年轻与热爱投入到骑行中是一件多么美好的事啊。
+</p>
 						</div>
 					</div>
 				</div>
@@ -319,7 +338,8 @@
 					</div>
 					<div class="dna-card-text">
 						<div class="dna-card-text-div">
-							<p class="dna-class-text-p">健康文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字</p>
+							<p class="dna-class-text-p">健康的体魄，壮硕的身躯是我们骄傲与炫耀的资本，健康不可忽视，在生活闲下来的时间进行一项合理的运动，既能强身健体又能拓宽视野，结交朋友，做健康的自己
+</p>
 						</div>
 					</div>
 				</div>
@@ -334,7 +354,7 @@
 					</div>
 					<div class="dna-card-text">
 						<div class="dna-card-text-div">
-							<p class="dna-class-text-p">友好文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字</p>
+							<p class="dna-class-text-p">礼貌待人，严于律己</p>
 						</div>
 					</div>
 				</div>
@@ -349,7 +369,7 @@
 					</div>
 					<div class="dna-card-text">
 						<div class="dna-card-text-div">
-							<p class="dna-class-text-p">自由文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字占位文字</p>
+							<p class="dna-class-text-p">自由是长久以来人人都需要的，需要放松自己，放空精神，适当的休息，呼吸新鲜空气，自由的骑行，不用思考关于学习与工作的项目，感受风从耳边划过的快感，做天底下最自由的人</p>
 						</div>
 					</div>
 				</div>
@@ -412,6 +432,7 @@
 			</div>
 		</div><!--main-div-->
 		
+		
 			
 	
 		<footer class="footer" style="padding-bottom:40px!important;padding-top: 30;margin-top: 0!important;margin-bottom: 0px!important;">
@@ -468,7 +489,7 @@
 										
 									</div>
 									<div class="about-home" style="">
-											<a class="link" href="./page/version.html">4.0(15H29A)</a>
+											<a id="fooder-ver" class="link" href="./page/version.html"></a>
 											<a class="link" href="http://midnightnth.club:59144">Admin Login</a>
 									</div>
 									<div class="about-home" align="right">
@@ -480,5 +501,29 @@
 						</footer>
 		
 		</div><!--skeleton over-->
+		
+		<div id="language-change" class="language-display-1" style="display: none;"><!--language begin-->
+			<div class="language-item">
+				<div onclick="close_language()" class="language-close">
+					<img class="language-close-img" src="./img/close.svg">
+				</div>
+				<div class="language-logo">
+					<img class="language-logo-img" src="./img/1024.png">
+				</div>
+				<div class="language-text-title">
+					<p class="language-text-title-p">Please chose your language</p>
+				</div>
+				<div class="language-chose">
+					<a href="">
+						<button class="language-chose-button">Chinese</button>
+					</a>
+					<a href="http://midnightnth.club:12">
+						<button class="language-chose-button button-right">English</button>
+					</a>
+				</div>
+				
+			</div>
+		</div>
+		
 	</body>
 </html>

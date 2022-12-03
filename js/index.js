@@ -23,7 +23,7 @@ function cn_text() {
 	document.getElementById("cn-index6").innerHTML="关于我们";
 	document.getElementById("cn-index-li6").style.display = "inherit";
 	
-	document.getElementById("cn-index7").innerHTML="技术支持";
+	document.getElementById("cn-index7").innerHTML="历史更新";
 	document.getElementById("cn-index-li7").style.display = "inherit";
 	
 	document.getElementById("cn-index8").innerHTML="Midnight 视频";
@@ -35,7 +35,6 @@ function cn_text() {
 	document.getElementById("cn-index10").innerHTML="";
 	document.getElementById("cn-index-li10").style.display = "none";
 	
-	document.getElementById("version-nav").innerHTML="Midnight UI 4 Developer Beta"
 	
 	// w = screen.availWidth;
 	// if(w < 835 && w > 768){
@@ -60,7 +59,7 @@ function cn_url1(){
 	document.getElementById("cn-index4").setAttribute("href","./page/ranking.html");
 	document.getElementById("cn-index5").setAttribute("href","./page/noi.html");
 	document.getElementById("cn-index6").setAttribute("href","./page/about.html");
-	document.getElementById("cn-index7").setAttribute("href","./support/zh-cn/");
+	document.getElementById("cn-index7").setAttribute("href","./support/zh-cn/update.html");
 	document.getElementById("cn-index8").setAttribute("href","https://movie.midnightnth.club");
 	document.getElementById("cn-index9").setAttribute("href","./page/version.html");
 	document.getElementById("cn-index10").setAttribute("href","");
@@ -74,7 +73,7 @@ function cn_url2(){
 	document.getElementById("cn-index4").setAttribute("href","ranking.html");
 	document.getElementById("cn-index5").setAttribute("href","noi.html");
 	document.getElementById("cn-index6").setAttribute("href","about.html");
-	document.getElementById("cn-index7").setAttribute("href","../support/zh-cn");
+	document.getElementById("cn-index7").setAttribute("href","../support/zh-cn/update.html");
 	document.getElementById("cn-index8").setAttribute("href","https://movie.midnightnth.club");
 	document.getElementById("cn-index9").setAttribute("href","version.html");
 	document.getElementById("cn-index10").setAttribute("href","");	
@@ -86,20 +85,20 @@ function cn_url3(){
 	document.getElementById("cn-index4").setAttribute("href","../ranking.html");
 	document.getElementById("cn-index5").setAttribute("href","../noi.html");
 	document.getElementById("cn-index6").setAttribute("href","../about.html");
-	document.getElementById("cn-index7").setAttribute("href","../../support/zh-cn");
+	document.getElementById("cn-index7").setAttribute("href","../../support/zh-cn/update.html");
 	document.getElementById("cn-index8").setAttribute("href","https://movie.midnightnth.club");
 	document.getElementById("cn-index9").setAttribute("href","../version.html");
 	document.getElementById("cn-index10").setAttribute("href","");
 }
 
 function en_text() {
-	document.getElementById("en-index1").innerHTML="Fleet schedule";
+	document.getElementById("en-index1").innerHTML="Events";
 	document.getElementById("en-index-li1").style.display = "inherit";
 	
 	document.getElementById("en-index2").innerHTML="Team members";
 	document.getElementById("en-index-li2").style.display = "inherit";
 	
-	document.getElementById("en-index3").innerHTML="Vehicle information";
+	document.getElementById("en-index3").innerHTML="Bike information";
 	document.getElementById("en-index-li3").style.display = "inherit";
 	
 	document.getElementById("en-index4").innerHTML="Ranking List";
@@ -111,7 +110,7 @@ function en_text() {
 	document.getElementById("en-index6").innerHTML="About Us";
 	document.getElementById("en-index-li6").style.display = "inherit";
 	
-	document.getElementById("en-index7").innerHTML="Support";
+	document.getElementById("en-index7").innerHTML="History Update";
 	document.getElementById("en-index-li7").style.display = "inherit";
 	
 	document.getElementById("en-index8").innerHTML="Midnight Movies";
@@ -123,7 +122,10 @@ function en_text() {
 	document.getElementById("en-index10").innerHTML="";
 	document.getElementById("en-index-li10").style.display = "none";
 	
-	document.getElementById("version-nav").innerHTML="Midnight UI 4 Developer Beta"
+	document.getElementById("version-nav").innerHTML="Midnight UI 4 Developer Beta (15A1097d)"
+	
+	document.getElementById("index-main").style.display = "block";
+	document.getElementById("skeleton").style.display = "none";
 	
 }
 function en_url1(){
@@ -133,7 +135,7 @@ function en_url1(){
 	document.getElementById("en-index4").setAttribute("href","./page/ranking.html");
 	document.getElementById("en-index5").setAttribute("href","./page/noi.html");
 	document.getElementById("en-index6").setAttribute("href","./about.html");
-	document.getElementById("en-index7").setAttribute("href","http://support.midnightnth.club/en-us");
+	document.getElementById("en-index7").setAttribute("href","./support/zh-cn/update.html");
 	document.getElementById("en-index8").setAttribute("href","https://movie.midnightnth.club");
 	document.getElementById("en-index9").setAttribute("href","./page/version.html");
 	document.getElementById("en-index10").setAttribute("href","");
@@ -146,7 +148,7 @@ function en_url2(){
 	document.getElementById("en-index4").setAttribute("href","ranking.html");
 	document.getElementById("en-index5").setAttribute("href","noi.html");
 	document.getElementById("en-index6").setAttribute("href","about.html");
-	document.getElementById("en-index7").setAttribute("href","http://support.midnightnth.club/en-us");
+	document.getElementById("en-index7").setAttribute("href","support/zh-cn/update.html");
 	document.getElementById("en-index8").setAttribute("href","https://movie.midnightnth.club");
 	document.getElementById("en-index9").setAttribute("href","version.html");
 	document.getElementById("en-index10").setAttribute("href","");
@@ -159,14 +161,14 @@ function en_url3(){
 	document.getElementById("en-index4").setAttribute("href","../ranking.html");
 	document.getElementById("en-index5").setAttribute("href","../noi.html");
 	document.getElementById("en-index6").setAttribute("href","../about.html");
-	document.getElementById("en-index7").setAttribute("href","http://support.midnightnth.club/en-us");
+	document.getElementById("en-index7").setAttribute("href","../support/zh-cn/update.html");
 	document.getElementById("en-index8").setAttribute("href","https://movie.midnightnth.club");
 	document.getElementById("en-index9").setAttribute("href","../version.html");
 	document.getElementById("en-index10").setAttribute("href","");
 }
 
 function index_ver(){
-	document.getElementById("version-nav").innerHTML="Midnight UI 4 Developer Beta"
+	document.getElementById("version-nav").innerHTML="Midnight UI 4 Developer Beta 5 (15A1103e)"
 	
 }
 function not(){
@@ -222,4 +224,7 @@ function open_text(){
 function close_text(){
 	document.getElementById("open_text").style.display = "none";
 	document.getElementById("please_open").style.display = "block";
+}
+function cannotopen(){
+	alert("此功能跟随技术支持板块开放")
 }
