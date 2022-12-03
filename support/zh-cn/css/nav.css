@@ -27,7 +27,7 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem!important;
     /* background-image: url(../img/spb.png); */
 }
 @media (min-width: 768px)
@@ -137,6 +137,13 @@
     -moz-appearance: none;
     -webkit-appearance: none;
 }
+.language-index-nav{
+	color: #ffffff;
+	font-size: 15px;
+	margin-right: 14px;
+	border-bottom: solid #ffffff 1px;
+/* 	text-decoration: underline;*/
+}
 .ham {
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
@@ -200,7 +207,24 @@
 	margin-top: 20px;
 	text-align: center;
 	color: #3f3f3f;
+	font-size: 15px;
 	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
 	
 }
+}
+.badge-nav{
+	    -webkit-margin-before: 1px;
+	    margin-block-start: 1px;
+	    fill: #933493;
+		border-radius: 50px;
+	    -webkit-margin-start: 4px;
+	    margin-inline-start: 4px;
+		background-color: #ffffff;
+		background-size:10px ;
+}
+.badge-back{
+	background-color: #ffffff;
+	width: 40px;
+	height: 16px;
+	margin-right: 0px;;
 }

@@ -4,6 +4,7 @@
  * @Program name : support.css
  * Copyright (c) 2022 by Junchen Yi Taohua-Nong, All Rights Reserved.
  */
+@import url(MNUIwebkit.css);
 body{
 	    background-color: var(--background-color)!important;
 		font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;

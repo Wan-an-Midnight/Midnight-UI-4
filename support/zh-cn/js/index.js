@@ -35,7 +35,7 @@ function cn_text() {
 	document.getElementById("cn-index10").innerHTML="";
 	document.getElementById("cn-index-li10").style.display = "none";
 	
-	document.getElementById("version-nav").innerHTML="Midnight UI 4 Developer Beta"
+	document.getElementById("version-nav").innerHTML="Midnight UI 4 Developer Beta 4(15A1097d)"
 	
 	// w = screen.availWidth;
 	// if(w < 835 && w > 768){
