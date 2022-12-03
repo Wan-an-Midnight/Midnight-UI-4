@@ -72,7 +72,8 @@ body{
 	margin-right: 20px;
 }
 .info-ul{
-	
+	margin: 0;
+	padding: 0;
 }
 .info-li{
 	background-color: #ffffff;
@@ -92,11 +93,14 @@ body{
 	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 	font-size: 20px;
 	font-weight: 500;
+	margin-bottom: 0;
+	color: #000000;
 }
 .info-li-body{
 	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 	font-size: 20px;
 	font-weight: 500;
+	margin-bottom: 0;
 }
 .right{
 	height: 34px;

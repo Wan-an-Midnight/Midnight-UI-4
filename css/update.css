@@ -97,6 +97,7 @@
 .update-a{
 	text-align: center;
 	display: block;
+	color: #000000!important;
 	    padding-left: 15px;
 	        padding-bottom: 30px;
 	        padding-right: 25px;
@@ -106,6 +107,8 @@
 	    border: 1px solid #bbb;
 	    border-radius: 5px;
 	    font-size: 14px;
+		font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+		
 
 }
 .update-a-all{

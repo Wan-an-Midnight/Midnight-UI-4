@@ -66,7 +66,7 @@
 	font-family: hwxk;
 	}
 .schedule-head-text-p2{
-	color: #a8884d;
+	color: #933493;
 	font-size:40px ;
 	font-weight: 700;
 	font-family: hwxk;
@@ -135,7 +135,7 @@
 }
 .schedule-text-name-p{
 	font-size: 30px;
-	color: #b59251;
+	color: #933493;
 	font-weight: 700;
 	letter-spacing: .1em;
 }
@@ -168,7 +168,7 @@
 }
 .schedule-detal-long-name{
 	margin-right: 15px;
-	color: #b59251;
+	color: #933493;
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -193,7 +193,7 @@
 }
 .schedule-detal-location-name{
 	margin-right: 15px;
-	color: #b59251;
+	color: #933493;
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -218,7 +218,7 @@
 }
 .schedule-detal-hour-name{
 	margin-right: 15px;
-	color: #b59251;
+	color: #933493;
 	font-size: 16px;
 	font-weight: 400;
 }

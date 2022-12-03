@@ -42,7 +42,9 @@
 	list-style-position: outside;
 	    margin: 0;
 	    padding: 0 17px;
-		width: auto;
+	    width: auto;
+	    text-align: left!important;
+	    margin-left: 15px;
 }
 .section-1-country{
 	display: none;
@@ -51,10 +53,12 @@
 	text-align: center;
 }
 .li-footer-1{
-	
+	font-size:12px ;
 	font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .li-footer-2{
+	font-size:12px ;
+	
 		font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 		margin-top: 10px;
 }
@@ -93,7 +97,7 @@
 	    display: inline-block;
 	    margin-top: 5px;
 	    white-space: nowrap;
-		color: #515154;
+		color: #86868b;
 		font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 		font-size: 12px;
 }

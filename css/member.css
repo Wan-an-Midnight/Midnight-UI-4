@@ -72,7 +72,7 @@ body{
 	font-family: hwxk;
 	}
 .member-head-text-p2{
-	color: #a8884d;
+	color: #933493;
 	font-size:40px ;
 	font-weight: 700;
 	font-family: hwxk;
@@ -114,7 +114,7 @@ body{
 	padding-bottom: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
-	border-bottom: #b59251 solid 2px;
+	border-bottom: #933493 solid 2px;
 	display: flex;
 	    flex-direction: row;
 	    flex-wrap: nowrap;
@@ -135,7 +135,7 @@ body{
 	    margin-right: 0px;
 }
 .member-info-text-name{
-	color: #b59251;
+	color: #933493;
 }
 .member-info-text-name-p{
 	font-size: 27px;
