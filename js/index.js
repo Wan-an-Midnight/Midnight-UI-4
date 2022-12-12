@@ -3,7 +3,7 @@
  // * @Date         : 2022-07-15 21:11:30
  // * @Program name : index.js
  // * Copyright (c) 2022 by Junchen-Yi Taohua-Nong, All Rights Reserved. 
-function cn_text() {
+function cn_text_index() {//index
 	
 	document.getElementById("cn-index1").innerHTML="日程";
 	document.getElementById("cn-index-li1").style.display = "inherit";
@@ -48,6 +48,63 @@ function cn_text() {
 	// 	}
 	document.getElementById("index-main").style.display = "block";
 	document.getElementById("skeleton").style.display = "none";
+	
+	// if(document.cookie.indexOf("a=hello")==-1){
+	// 	wel()
+	//     document.cookie="a=hello; expires=Thu, 26 Nov 2022 04:00:00 GMT";
+	// }else{
+		
+	// }
+
+}
+function cn_text() {//other pages
+	
+	document.getElementById("cn-index1").innerHTML="日程";
+	document.getElementById("cn-index-li1").style.display = "inherit";
+	
+	document.getElementById("cn-index2").innerHTML="成员";
+	document.getElementById("cn-index-li2").style.display = "inherit";
+	
+	document.getElementById("cn-index3").innerHTML="车辆信息";
+	document.getElementById("cn-index-li3").style.display = "inherit";
+	
+	document.getElementById("cn-index4").innerHTML="排行榜";
+	document.getElementById("cn-index-li4").style.display = "inherit";
+	
+	document.getElementById("cn-index5").innerHTML="公告&通知";
+	document.getElementById("cn-index-li5").style.display = "inherit";
+	
+	document.getElementById("cn-index6").innerHTML="关于我们";
+	document.getElementById("cn-index-li6").style.display = "inherit";
+	
+	document.getElementById("cn-index7").innerHTML="历史更新";
+	document.getElementById("cn-index-li7").style.display = "inherit";
+	
+	document.getElementById("cn-index8").innerHTML="Midnight 视频";
+	document.getElementById("cn-index-li8").style.display = "inherit";
+	
+	document.getElementById("cn-index9").innerHTML="关于";
+	document.getElementById("cn-index-li9").style.display = "inherit";
+	
+	document.getElementById("cn-index10").innerHTML="";
+	document.getElementById("cn-index-li10").style.display = "none";
+	
+	
+	// w = screen.availWidth;
+	// if(w < 835 && w > 768){
+	// 	document.getElementById("w768").style.display = "block"
+	// 	document.getElementById("main-body").style.overflow = "hidden"
+	// 	document.getElementById("nav").style.display = "none";
+	// 	document.getElementById("main-body").style.display = "inline-grid";
+	// 	}
+	// else{
+	// 	document.getElementById("w768").style.display = "none"
+	// 	}
+	document.getElementById("index-main").style.display = "block";
+	document.getElementById("skeleton").style.display = "none";
+	
+	
+
 }
 function cn_url1(){
 	// document.getElementById("index-main").style.display = "block";
@@ -228,3 +285,22 @@ function close_text(){
 function cannotopen(){
 	alert("此功能跟随技术支持板块开放")
 }
+function check_device(){
+	w = screen.availWidth;
+	if(w>800){
+		alert("当前版本暂不支持此设备访问，即将返回旧版")
+		//window.location.href = "http://www.odd.midnightnth.club";
+		}
+	else
+		return 0;
+		
+}
+// function check_device(){
+// if(window.matchMedia("(max-width: 767px)").matches){
+// 		alert("当前版本暂不支持此设备访问，即将返回旧版")
+// 		window.location.href = "https://www.odd.midnightnth.club";
+//  }else {
+// 		return 0;
+// 		}
+// }
+
