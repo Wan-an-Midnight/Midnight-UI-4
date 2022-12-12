@@ -11,11 +11,14 @@
     <link rel="shortcut icon" type="image/x-icon" href="./img/logo_1x.ico" media="screen">
     <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="Description" content="人类高质量湾岸 Midnight 官方网站">
+		<meta property="og:description" content="人类高质量湾岸 Midnight 官方网站">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="./css/nav.css">
 		<link rel="stylesheet" href="./css/footer.css">
 		<link rel="stylesheet" href="./css/index3.css">
 		<link rel="stylesheet" href="./css/skeleton.css">
+		<link rel="stylesheet" href="./css/welcome.css">
 		<link rel="stylesheet" href="./css/language-index.css">
         <link rel="stylesheet" href="./css/bootstrap.min.css">
 		<link rel="stylesheet" href="./css/bootstrap-gui.min.css">
@@ -24,6 +27,7 @@
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"crossorigin="anonymous"></script>
         <meta name="viewport"content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
         <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/welcome.js"></script>
         <script src="./js/popper.min.js"></script>
         <script src="./js/jquery-slim.min.js"></script>
 		<script src="./js/index.js"></script>
@@ -37,8 +41,93 @@
         <title>Midnight｜首页</title>
 
 </head>
+		<!--welcome begin-->
+		<div id="wel-main" class="wel-main">
+			<div id="wel-page1" class="wel-page1">
+				<div class="wel-page1-body">
+					<div class="wel-page1-4logo">
+						<img class="wel-page1-4logo-img" src="./img/mnui4.png">
+					</div>
+					<div class="wel-page1-text">
+						<p class="wel-page1-text-p">全新版本 4.0 发布</p>
+					</div>
+				</div>
+				<div class="wel-page1-button">
+					<button onclick="welchange2()" class="wel-page1-button-but">
+						<p class="but-p">继续</p>
+					</button>
+				</div>
+			</div>
+			
+			<div id="wel-page2" class="wel-page2" style="display: none;">
+				<div class="wel-page2-body">
+					<div class="wel-page2-text">
+						<p class="wel-page2-text-p">新 UI 体验</p>
+						<p class="wel-page2-text-p2">全新的设计，方便快捷浏览</p>
+					</div>
+					<div class="wel-page2-ui">
+						<div id="page2-ui1" class="wel-page2-ui-1-admin wel-page2-ui-1">
+							<img class="wel-page2-ui-1-img" src="./img/ui1.png">
+						</div>
+						<div id="page2-ui2" class="wel-page2-ui-2-admin wel-page2-ui-2">
+							<img class="wel-page2-ui-2-img" src="./img/ui2.png">
+						</div>
+						<div id="page2-ui3" class="wel-page2-ui-3-admin wel-page2-ui-3">
+							<img class="wel-page2-ui-3-img" src="./img/ui3.png">
+						</div>
+					</div>
+				</div>
+				<div class="wel-page2-button">
+					<button onclick="welchange3()" class="wel-page1-button-but">
+						<p class="but-p">继续</p>
+					</button>
+				</div>
+			</div>
+			
+			<div id="wel-page3" class="wel-page3">
+				<div class="wel-page3-body">
+					<div class="wel-page3-text">
+						<p class="wel-page3-text-p">全新排行榜</p>
+						<p class="wel-page3-text-p2">长达半年打造的排行榜功能，<br>等您来发现</p>
+					</div>
+					<div class="wel-page3-ui">
+						<div id="page3-ui1" class="wel-page3-ui-1-admin wel-page3-ui-1">
+							<img class="wel-page3-ui-1-img" src="./img/rankname.png">
+						</div>
+						<div id="page3-ui2" class="wel-page3-ui-2-admin wel-page3-ui-2">
+							<img class="wel-page3-ui-2-img" src="./img/rank.png">
+						</div>
+						
+					</div>
+				</div>
+				<div class="wel-page3-button">
+					<button onclick="welchange4()" class="wel-page3-button-but">
+						<p class="but-p">继续</p>
+					</button>
+				</div>
+			</div>
+			
+			<div id="wel-page4" class="wel-page4">
+				<div class="wel-page4-body">
+					<div class="wel-page4-text">
+						<p id="page4-ui1" class="wel-page4-ui-1-admin wel-page4-ui-1 wel-page4-text-p" class="">开始使用</p>
+						<p id="page4-ui2" class="wel-page4-ui-2-admin wel-page4-ui-2 wel-page4-text-p2" class="">Midnight UI 4</p>
+					</div>
+				</div>
+				<div id="page4-ui3" class="wel-page4-ui-3-admin wel-page4-ui-3 wel-page4-button" class="">
+					<button onclick="welchange5()" class="wel-page4-button-but">
+						<p class="but-p" style="font-size: 16px;">按下按钮开始使用</p>
+					</button>
+				</div>
+			</div>
+			
+		</div>
+		<!--welcome end-->
+	<script>
+		
+	</script>
 
-<body id="main-body" onload="cn_text();cn_url1();index_ver();ranking_data();ranking_list()" οncοntextmenu=self.event.returnValue=false onselectstart="return false">
+<body id="main-body" onload="cn_text_index();cn_url1();index_ver();check_device();ranking_list();ranking_data();" οncοntextmenu=self.event.returnValue=false onselectstart="return false">
 	<div class="main">
     <div id="defaultId1" class=" gui-xs gui-sm  testBorder  " style="background-color: #F5F5F7;"></div>
     <div id="c7a61c" class=" testBorder  u37cbd">
@@ -94,7 +183,7 @@
 		</div>
 	</div>
 		<!--skeleton begin-->
-		<div id="skeleton" class="skeleton">
+		<div id="skeleton" class="skeleton" style="display: block;">
 			<div class="skeleton-index-img skeleton-anim">
 				
 			</div>
@@ -285,7 +374,7 @@
 				<div class="dna-text">
 					<div class="dna-text-tit">
 						<p class="dna-text-tit-p">
-							why going for biking
+							why go biking
 						</p>
 					</div>
 					<div class="dna-text-body">
@@ -425,7 +514,7 @@
 					</div>
 					<div class="join-body-text">
 						<p class="join-body-text-p">
-							riding togeter and get more happy
+							riding togeter and getting more happier
 						</p>
 					</div>
 				</div>
@@ -511,7 +600,7 @@
 					<img class="language-logo-img" src="./img/1024.png">
 				</div>
 				<div class="language-text-title">
-					<p class="language-text-title-p">Please chose your language</p>
+					<p class="language-text-title-p">Please choose your language</p>
 				</div>
 				<div class="language-chose">
 					<a href="">
@@ -524,6 +613,11 @@
 				
 			</div>
 		</div>
+		
+		
+		
+		
+		
 		
 	</body>
 </html>
