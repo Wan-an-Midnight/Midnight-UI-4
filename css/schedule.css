@@ -10,8 +10,9 @@
 }
 
 .schedule-main{
-	width: 87.5%;
-	margin: 0 auto;
+	width: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 .schedule-head{
 /* 	padding-top: 30px; */
@@ -67,7 +68,7 @@
 	}
 .schedule-head-text-p2{
 	color: #933493;
-	font-size:40px ;
+	font-size:37px ;
 	font-weight: 700;
 	font-family: hwxk;
 	
@@ -83,7 +84,7 @@
 }
 .data-card{
 	position: absolute;
-	right: 24px;
+	right: 25px;
 	display: flex;
 	    flex-direction: column;
 	    flex-wrap: nowrap;
@@ -102,6 +103,7 @@
 	font-size: 14px;
 	letter-spacing: .2em;
 	font-weight: 400;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .data-num{
 	margin-bottom: 5px;
@@ -176,6 +178,7 @@
 	color: #000000;
 	font-size: 16px;
 	font-weight: 500;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .schedule-detal-location{
 	display: flex;
@@ -185,6 +188,7 @@
 	align-items: center;
 	align-content: center;
 	margin-bottom: 20px;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .schedule-detal-location-svg{
 	margin-right: 10px;
@@ -196,11 +200,13 @@
 	color: #933493;
 	font-size: 16px;
 	font-weight: 400;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .schedule-detal-location-num{
 	color: #000000;
 	font-size: 16px;
 	font-weight: 500;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .schedule-detal-hour{
 	display: flex;
@@ -210,6 +216,7 @@
 	align-items: center;
 	align-content: center;
 	margin-bottom: 20px;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .schedule-detal-hour-svg{
 	margin-right: 10px;
@@ -221,9 +228,11 @@
 	color: #933493;
 	font-size: 16px;
 	font-weight: 400;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .schedule-detal-hour-num{
 	color: #000000;
 	font-size: 16px;
 	font-weight: 500;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
