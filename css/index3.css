@@ -1,0 +1,449 @@
+/* @Author       : Junchen-Yi
+ * @Designer	 : Taohua-Nong
+ * @Date         : 2022-07-14 09:11:30
+ * @Program name : index3.html
+ * Copyright (c) 2022 by Junchen-Yi Taohua-Nong, All Rights Reserved.
+ */
+@import url(MNUIwebkit.css);
+@font-face {
+	font-family:hwxk;
+	src: url(../font/huawenxinkai.ttf);
+}
+@font-face {
+	font-family:hwls;
+	src: url(../font/huawenlishu2.TTF);
+}
+@font-face {
+	font-family:hwxw;
+	src: url(../font/huawenxinwei.ttf);
+}
+@font-face {
+	font-family:ysbth;
+	src: url(../font/YouSheBiaoTiHei-2.ttf);
+}
+html{
+	margin:0;
+	padding:0;
+	}
+sup {
+    position: relative;
+    vertical-align: initial;
+    font-feature-settings: "numr";
+    font-size: 1em;
+	}
+ul{
+	padding: 0;
+	list-style-type: none;
+}
+li{
+	padding: 0;
+	list-style-type: none;
+}
+a {
+    text-decoration: none!important;
+	color: #000000;
+}
+/*正常的未被访问过的链接*/
+
+:root{
+	--text-color:#000000;
+	--white:#ffffff;
+	--born50:#9e9e9e;
+	--born30:#cccccc;
+	--born60:#7e7e7e;
+}
+.main{
+	margin-top: 55px!important;
+}
+.main-div{
+	width: 98%;
+	margin: 0 auto;
+}
+.show-language{
+	overflow: hidden!important;
+	
+}
+.top{
+	background-image: url("https://img.midnightnth.club/4.0/SPECIALIZED.png");
+	height: 300px;
+	width: 100%;
+	z-index: 2;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 80px;
+}
+.top-text{
+	position: relative;
+	bottom: 0;
+	top: 170px;
+	text-align: center;
+	padding-top: 40px;
+}
+.top-text-p{
+	font-size: 50px;
+	color: #ffffff;
+	font-family: hwxk;
+----/* text-shadow: 0 0 4px #000000; */
+}
+.com{
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 50px;
+	
+}
+.com-tit{
+	margin-bottom: 10px;
+	
+}
+.com-tit-p{
+	font-family: hwxk;
+	font-size: 60px;
+}
+.com-text{
+	
+}
+.com-text-p{
+	font-family: hwxk;
+	font-size: 40px;
+	color: var(--born50);
+	line-height: 30px;
+}
+.ranking{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 50px;
+	background-color: var(--born30);
+/* 	height: 285px;
+ */	border-radius: 15px;
+}
+.ranking-main{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+}
+.ranking-nav{
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.ranking-nav-ul{
+	display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: space-around;
+	    align-items: center;
+		margin-left: 9px;
+}
+.ranking-nav-li{
+	list-style-type: none;
+/* 	margin-left: 9px;
+ */	margin-right: 5px;
+	font-family: ysbth;
+	font-size: 17px;
+	color: var(--born60);
+}
+.ranking-button-after{
+		border: 0;
+		cursor: pointer;
+		height: auto;
+		padding: 0;
+		color: var(--text-color);
+		background: none;
+		font-size: 17px;
+		font-family: ysbth;
+		
+}
+.ranking-button-befor{
+		border: 0;
+		cursor: pointer;
+		height: auto;
+		padding: 0;
+		color: var(--born60);
+		background: none;
+		font-size: 17px;
+		font-family: ysbth;
+		
+}
+.ranking-hr{
+	border-top-width: 2px;
+	background-color: var(--text-color);
+	opacity: inherit!important;
+}
+.ranking-body{
+	margin-top: 15px;
+}
+.ranking-climb-body{
+	display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: space-between;
+	    align-items: center;
+}
+.ranking-climb-name-list{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.ranking-climb-ul{
+	padding-left: 0;
+}
+.ranking-climb-li{
+	color: var(--text-color);
+	font-family: ysbth;
+	font-size: 22px;
+	margin-bottom: 3px;
+}
+.ranking-nonedata{
+	text-align: center;
+	    margin-left: 15px;
+}
+.ranking-nonedata-li{
+	color: var(--text-color);
+	font-weight: 600;
+	letter-spacing: .3em;
+}
+.ranking-climb-img{
+	margin-right: 5px;
+}
+.ranking-cilmb-img-div{
+	min-width: 140px;
+	max-width: 160px;
+}
+.ranking-climb-img-img{
+	width: 100%;
+	height: 162px;
+	border-radius: 15px;
+}
+.dna{
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 50px;
+}
+.dna-text{
+	
+}
+.dna-text-tit{
+	margin-bottom: 10px;
+}
+.dna-text-tit-p{
+	font-family: hwxk;
+	color: var(--born50);
+	font-size: 24px;
+}
+.dna-text-body{
+	
+}
+.dna-text-body-p{
+	color: var(--text-color);
+	font-size: 36px;
+	font-family: hwxk;
+	
+}
+.dna-list{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.dna-list-nav{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+.dna-list-ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0;
+}
+.dna-list-li{
+	font-family: hwxk;
+	font-size: 24px;
+	color: var(--born50);
+}
+.dna-button-after{
+		border: 0;
+		cursor: pointer;
+		height: auto;
+		padding: 0;
+		color: var(--text-color);
+		background: none;
+		font-size: 17px;
+		font-family: hwxk;
+		
+}
+.dna-button-befor{
+		border: 0;
+		cursor: pointer;
+		height: auto;
+		padding: 0;
+		color: var(--born60);
+		background: none;
+		font-size: 17px;
+		font-family: hwxk;
+		
+}
+.dna-hr{
+	border-top-width: 2px;
+	background-color: var(--text-color);
+	margin-top: 10px;
+	opacity: inherit!important;
+}
+.dna-card{
+	height: 100%;
+}
+.dna-card-like{
+	background-color: var(--born30);
+	height: auto;
+	border-radius: 15px;
+	display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: space-around;
+	    align-items: center;
+	min-height: 324px;
+}
+.dna-card-img{
+	width: 1800px;
+	max-width: 185px;
+	height: 180px;
+	border-radius: 15px;
+	margin-left: 1px;
+}
+.dna-card-img-img{
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+	border-radius: 15px;
+	object-fit: cover;
+}
+.dna-card-text{
+	padding-left: 13px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	color: var(--text-color);
+	font-family: hwls;
+	width: 156px;
+	font-size: 16px;
+}
+.dna-dard-text-p{
+	font-family: hwls;
+	font-size: 18px;
+	
+}
+.us{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-left: 50px;
+	padding-right: 40px;
+	margin-bottom: 100px;
+	border-radius: 15px;
+	height: auto;
+	    -webkit-box-shadow:none!important;
+	background-color: var(--born30);
+}
+.us-card{
+	/* margin-left: 60px;
+	margin-right: 60px; */
+	padding-top: 30px;
+	    padding-bottom: 30px;
+	    display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: center;
+}
+.us-text{
+	margin-top: 20px;
+	color:var(--text-color);
+}
+.us-text-title-p{
+	font-size: 36px;
+	font-family: hwls;
+}
+.us-text-title2{
+	margin-bottom: 30px;
+}
+.us-text-title2-p{
+	color: var(--text-color);
+	font-family: hwls;
+	font-size: 36px;
+	line-height: 40px;
+}
+.us-img{
+	text-align: center;
+	max-height: 100px;
+	margin-top: 40px;
+	text-align: center;
+	margin-left: -10px;
+	margin-bottom: 200px;
+	
+}
+.us-img-img{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+.info-text-all-text{
+	color: var(--text-color);
+	width: auto;
+	height: auto;
+}
+.apple-div {
+  margin: 40px 0;
+  font-size: 21px;
+  text-align: left;
+  font-weight: 500;
+/*  letter-spacing: -1.2px; */
+  color: var(--text-color);
+  line-height: 1.5em;
+
+}
+
+.apple-span {
+	margin-top:20px ;
+	margin-bottom: 20px;
+	opacity: var(--opacity);
+	text-align: left;
+	display: inline;
+	font-family: hwxw;
+}
+.pro {
+  display: block;
+  margin-top: 2.2rem;
+}
+.join{
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 20px;
+	margin-bottom: 300px;
+}
+.join-text{
+	margin-left: 17px;
+	margin-right: 17px;
+}
+.join-title{
+	margin-bottom: 30px;
+	color: var(--text-color);
+}
+.join-title-text-p{
+	font-size: 36px;
+	font-family: hwxk;
+}
+.join-text-body{
+	margin-bottom: 20px;
+	
+}
+.join-body-text-p{
+	color: var(--born50);
+	font-size: 24px;
+	font-family: hwxk;
+}

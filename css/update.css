@@ -1,0 +1,251 @@
+/* @Author       : Junchen-Yi
+ * @Designer	 : Taohua-Nong
+ * @Date         : 2022-08-25 20:00:19
+ * @Program name : uodate.html
+ * Copyright (c) 2022 by Jucnhen-Yi Taohua-Nong, All Rights Reserved.
+ */
+.app{
+	width: 980px;
+	color: #000000;
+	margin-left: auto;
+	    margin-right: auto;
+		/* padding-left: 10px;
+		padding-right: 10px; */
+		margin-top: 100px;
+		
+}
+@media only screen and (max-width: 735px) {
+	.app{
+		width: 90%;
+		    margin-left: auto;
+		        margin-right: auto;
+			padding-left: 10px;
+		    padding-right: 0;
+	}
+	
+}
+.updates-1{
+	width: auto;
+}
+.updates-1-h1{
+		font-size: 32px;
+	    line-height: 1.05;
+	    font-weight: 500;
+	    letter-spacing: .008em;
+	    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+	    width: auto;
+	    margin-top: 64px;
+}
+@media only screen and (max-width: 735px) {
+	.updates-1-h1{
+		font-size: 25px;
+	}
+	
+}
+.update-intor{
+	margin-top: 0px;
+	
+}
+.update-intor-p{
+	font-weight: 320;
+	margin-top: 1.0625rem;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-bottom: 1.2em;
+	    padding: 0 0 1px;
+	    width: 80%;
+		font-size: 22px;
+		    line-height: 1.45455;
+		    
+		    letter-spacing: .016em;
+		    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+		    width: auto;
+			font-family: SF Pro SC,SF Pro Display,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
+			color: #333;
+			    font-size: 24px;
+			    line-height: 1.35417;
+			    letter-spacing: normal;
+}
+.a-updates{
+	color: #0070c9;
+	word-break: break-all;
+}
+.update-section{
+	margin-left: auto;
+	    margin-right: auto;
+	    width: 100%;
+}
+.table-update{
+	margin-top: 50px;
+	    margin-bottom: 90px;
+	    display: flex;
+	        flex-direction: row;
+	        flex-wrap: wrap;
+	        align-items: center;
+	        align-content: center;
+	        
+}
+@media only screen and (max-width:735px) {
+	.table-update{
+		margin-top: 80px;
+		    padding: 1px 0 0;
+		    margin-left: 20px;
+		    margin-right: 0!important;
+	}
+	
+}
+.update-a{
+	text-align: center;
+	display: block;
+	color: #000000!important;
+	    padding-left: 15px;
+	        padding-bottom: 30px;
+	        padding-right: 25px;
+	        padding-top: 30px;
+			width: 130px;
+	    margin: 25px 25px 0 0;
+	    border: 1px solid #bbb;
+	    border-radius: 5px;
+	    font-size: 14px;
+		font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+		
+
+}
+.update-a-all{
+	text-align: center;
+	display: block;
+	    padding-left: 25px;
+	        padding-bottom: 30px;
+	        padding-right: 25px;
+	        padding-top: 30px;
+				width: 85px;
+	    margin: 25px 25px 0 0;
+	    border: 1px solid #bbb;
+	    border-radius: 5px;
+	    font-size: 14px;
+}
+.update-v-h2{
+	font-size: 32px;
+	    line-height: 1.09375;
+	    font-weight: 500;
+	    letter-spacing: .011em;
+	    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+@media only screen and (max-width:735px) {
+	.update-v-h2{
+		font-size: 24px;
+		    line-height: 1.20849;
+		    font-weight: 500;
+		    letter-spacing: .015em;
+		    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+	}
+	
+}
+.update-v-div{
+	width: auto;
+	    box-sizing: border-box;
+		margin-bottom: 30px;
+}
+@media only screen and (max-width:735px) {
+	.update-v-div{
+		width: 100%;
+		    padding: 1px 0 0;
+		    margin-left: 0!important;
+		    margin-right: 0!important;
+	}
+	
+}
+.update-v-p{
+	font-size: 17px;
+	    line-height: 1.52947;
+	    font-weight: 400;
+	    letter-spacing: -.021em;
+		font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	    margin-top: 15px;
+}
+.update-v-li{
+	font-size: 17px;
+	margin-top: 15px;
+	    line-height: 1.52947;
+	    font-weight: 400;
+	    letter-spacing: -.021em;
+}
+.update-v-ul{
+	padding-left: 20px;
+	font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.update-v-hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+.update-table{
+	width: auto;
+	    box-sizing: border-box;
+		border-collapse: collapse;
+		    max-width: 100%;
+		    margin-top: 1em;
+}
+@media only screen and (max-width:735px) {
+	.update-table{
+		width: 100%;
+		 max-width: 100%;
+		    padding: 1px 0 0;
+		    margin-left: 0!important;
+		    margin-right: 0!important;
+	}
+	
+}
+.update-table-1{
+	border-collapse: collapse;
+	    max-width: 100%;
+	    margin-top: 1em;
+		width: 980px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
+@media only screen and (max-width:735px) {
+	.update-table-1{
+		width: 100%;
+		 
+	}
+	
+}
+.update-table-tb{
+	width: auto;
+	font-size: 20px;
+}
+.update-table-th{
+	font-weight: 600;
+	width: auto;
+	padding: 10px 10px 10px;
+	    background: #a3a1a4;
+		/* padding: 8px; */
+		    line-height: 1.5;
+		    border: 1px solid #ddd;
+		    vertical-align: top;
+}
+.update-table-tr{
+	width: auto;
+	font-weight: 600;
+	    background: #a3a1a4;
+		padding: 8px;
+		    line-height: 1.5;
+		    border: 1px solid #ddd;
+		    vertical-align: top;
+}
+.update-table-td{
+		padding: 20px 10px 20px;
+		width: auto;
+	/* padding: 8px; */
+	    line-height: 1.5;
+	    border: 1px solid #ddd;
+	    vertical-align: top;
+}
+@media only screen and(max-width:735px) {
+	.update-table-td{
+		padding: 20px 10px 10px;
+	}
+	
+}

@@ -1,0 +1,448 @@
+/* @Author       : Junchen-Yi
+ * @Designer	 : Taohua-Nong
+ * @Date         : 2022-11-23 14:57:22
+ * @Program name : awelcome.css
+ * Copyright (c) 2022 by Junchen-Yi Taohua-Nong, All Rights Reserved.
+ */
+
+.wel-main{
+	border-radius: 43px;
+	transition: transform 0.8s ease, opacity 0.8s linear;
+	position: fixed;
+	z-index: 10004;
+	height: 100%;
+	width: 100%;
+	top: 10;
+	opacity: 0;
+	transform: translateY(100%);
+	overflow:hidden;
+	margin-top: -55px;
+	background-color: #f5f5f7;
+}
+.wel-main-show{
+	transform: translateY(0%);
+	opacity: 1;
+}
+.wel-main-show-c{
+	border-radius: 0;
+}
+.wel-main-show-co{
+	border-radius: 43;
+}
+.wel-main-out{
+	transform: translateY(100%);
+	opacity: 0;
+}
+.wel-page1{
+	width: 87.5%;
+	margin: 0 auto;
+	margin-top: -30px;
+	display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: center;
+	    align-items: center;
+		transition: transform 0.8s ease, opacity 0.8s linear;
+}
+.wel-page1-out{
+	transform: translateY(-80%);
+	opacity: 0;
+}
+.wel-page1-body{
+	display: flex;
+	    margin-top: 60px;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: center;
+	    align-items: center;
+}
+.wel-page1-4logo{
+	margin-bottom: 50px;
+}
+.wel-page1-4logo-img{
+	width: 200px;
+	height: 200px;
+}
+.wel-page1-text{
+	margin-top: 50px;
+	margin-bottom: 120px;
+}
+@media only screen and  (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait)  {
+.wel-page1-text{
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+}
+.wel-page1-text-p{
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 45px;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+}
+.wel-page1-button{
+	margin-bottom: 40px;
+}
+.wel-page1-button-but{
+	width: 150px;
+	height: 60px;
+	text-align: center;
+	border: 0;
+	background-color: #933493;
+	color: #ffffff;
+	border-radius: 43px;
+}
+.but-p{
+	font-size: 17px;
+	margin-left: 10px;
+	letter-spacing: 10px;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+}
+.wel-page2{
+	transition: transform 0.8s ease, opacity 0.8s linear;
+	width: 87.5%;
+	opacity: 0;
+	transform: translateY(30%);
+	margin: 0 auto;
+	margin-top: -30px;
+	display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: center;
+	    align-items: center;
+}
+.wel-page2-show{
+	transform: translateY(0%);
+	opacity: 1;
+}
+.wel-page2-out{
+	transform: translateY(-80%);
+	opacity: 0;
+}
+.wel-page2-body{
+	    margin-top: 70px;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: center;
+	    align-items: center;
+}
+.wel-page2-text{
+	margin-left: -20px;
+	margin-top: -30px;
+	margin-bottom: 30px;
+}
+.wel-page2-text-p{
+	margin-bottom: 10px;
+	font-size: 26px;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+}
+.wel-page2-text-p2{
+	font-size: 18px;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+}
+.wel-page2-ui{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+@media only screen and  (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait)  {
+.wel-page2-ui{
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+}
+.wel-page2-ui-1-admin{
+	transition: transform 0.8s ease, opacity 0.8s linear;
+	transform: translateX(400%);
+	opacity: 0;
+}
+.wel-page2-ui-1-show{
+	transform: translateX(0%);
+	opacity: 1;
+}
+.wel-page2-ui-1{
+	
+}
+.wel-page2-ui-1-img{
+	width: 250px;
+	height: 190px;
+}
+.wel-page2-ui-2-admin{
+	transition: transform 1s ease, opacity 1s linear;
+
+	transform: translateX(-400%);
+	opacity: 0;
+}
+.wel-page2-ui-2-show{
+	transform: translateX(0%);
+	opacity: 1;
+}
+.wel-page2-ui-2{
+	
+}
+.wel-page2-ui-2-img{
+	margin-left: 15px;
+	margin-top: 40px;
+	width: 180px;
+	height: 65px;
+	
+}
+.wel-page2-ui-3-admin{
+	transition: transform 1.3s ease, opacity 1.3s linear;
+	transform: translateY(20%);
+	opacity: 0;
+}
+.wel-page2-ui-3-show{
+	transform: translateY(0%);
+	opacity: 1;
+}
+.wel-page2-ui-3{
+	
+}
+.wel-page2-ui-3-img{
+	margin-left: 15px;
+	margin-top: 20px;
+	width: 130px;
+	height: 35px;
+	
+}
+.wel-page2-button{
+	margin-bottom: 40px;
+}
+.wel-page2-button-but{
+	width: 150px;
+	height: 60px;
+	text-align: center;
+	border: 0;
+	background-color: #933493;
+	color: #ffffff;
+	border-radius: 43px;
+}
+.wel-page3{
+	transition: transform 0.8s ease, opacity 0.8s linear;
+	width: 87.5%;
+	opacity: 0;
+	transform: translateY(50%);
+	margin: 0 auto;
+	margin-top: -30px;
+	display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: center;
+	    align-items: center;
+}
+.wel-page3-show{
+	transform: translateY(0%);
+	opacity: 1;
+}
+.wel-page3-out{
+	transform: translateY(-80%);
+	opacity: 0;
+}
+.wel-page3-body{
+	    margin-top: 70px;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: center;
+	    align-items: center;
+}
+.wel-page3-text{
+	margin-left: 10px;
+	margin-top: -30px;
+	margin-bottom: 30px;
+}
+.wel-page3-text-p{
+	margin-bottom: 10px;
+	font-size: 26px;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+}
+.wel-page3-text-p2{
+	font-size: 18px;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+}
+.wel-page3-ui{
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+@media only screen and  (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait)  {
+.wel-page3-ui{
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+}
+.wel-page3-ui-1-admin{
+	transition: transform 0.8s ease, opacity 0.8s linear;
+	transform: translateX(-400%);
+	opacity: 0;
+}
+.wel-page3-ui-1-show{
+	transform: translateX(0%);
+	opacity: 1;
+}
+.wel-page3-ui-1{
+	
+}
+.wel-page3-ui-1-img{
+	width: 300px;
+}
+.wel-page3-ui-2-admin{
+	transition: transform 0.8s ease, opacity 0.8s linear;
+	transform: translateX(400%);
+	opacity: 0;
+}
+.wel-page3-ui-2-show{
+	transform: translateX(0%);
+	opacity: 1;
+}
+.wel-page3-ui-2{
+	margin-top: 20px;
+}
+.wel-page3-ui-2-img{
+	width: 300px;
+}
+.wel-page3-button{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.wel-page3-button-but{
+	width: 150px;
+	height: 60px;
+	text-align: center;
+	border: 0;
+	background-color: #933493;
+	color: #ffffff;
+	border-radius: 43px;
+}
+.wel-page4{
+	transition: transform 0.8s ease, opacity 0.8s linear;
+	width: 87.5%;
+	opacity: 0;
+	transform: translateY(50%);
+	margin: 0 auto;
+	margin-top: -30px;
+	display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: center;
+	    align-items: center;
+}
+.wel-page4-show{
+	transform: translateY(0%);
+	opacity: 1;
+}
+.wel-page4-out{
+	transform: translateY(-80%);
+	opacity: 0;
+}
+.wel-page4-body{
+	    margin-top:140px;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: center;
+	    align-items: center;
+		margin-bottom: 30px;
+}
+.wel-page4-text{
+	margin-bottom: 140px;
+}
+.wel-page4-text-p{
+	font-size: 70px;
+	font-weight: 600;
+	margin-bottom: 40px;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+}
+.wel-page4-text-p2{
+	text-align: center;
+	font-size: 35px;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+	
+}
+.wel-page4-button{
+	margin-top: 120px;
+	margin-bottom: 0px;
+}
+@media only screen and  (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait)  {
+.wel-page4-button{
+	margin-top: 70px;
+	margin-bottom: 0px;
+}
+}
+.wel-page4-button-but{
+	width: 260px;
+	height: 60px;
+	text-align: center;
+	border: 0;
+	background-color: #933493;
+	color: #ffffff;
+	border-radius: 43px;
+}
+.wel-page4-ui-1-admin{
+	transition: transform 0.8s ease, opacity 0.8s linear;
+	transform: translateX(-400%);
+	opacity: 0;
+}
+.wel-page4-ui-1-show{
+	transform: translateX(0%);
+	opacity: 1;
+}
+.wel-page4-ui-1{
+	
+}
+.wel-page4-ui-1-img{
+	width: 250px;
+	height: 190px;
+}
+.wel-page4-ui-2-admin{
+	transition: transform 1s ease, opacity 1s linear;
+
+	transform: translateX(400%);
+	opacity: 0;
+}
+.wel-page4-ui-2-show{
+	transform: translateX(0%);
+	opacity: 1;
+}
+.wel-page4-ui-2{
+	
+}
+.wel-page4-ui-2-img{
+	margin-left: 15px;
+	margin-top: 40px;
+	width: 180px;
+	height: 65px;
+	
+}
+.wel-page4-ui-3-admin{
+	transition: transform 1.3s ease, opacity 1.3s linear;
+	transform: translateY(20%);
+	opacity: 0;
+}
+.wel-page4-ui-3-show{
+	transform: translateY(0%);
+	opacity: 1;
+}
+.wel-page4-ui-3{
+	
+}
+.wel-page4-ui-3-img{
+	margin-left: 15px;
+	margin-top: 20px;
+	width: 130px;
+	height: 35px;
+	
+}
