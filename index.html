@@ -1,0 +1,623 @@
+<!--
+ * @Author       : Junchen-Yi
+ * @Designer	 : Taohua-Nong
+ * @Date         : 2022-07-15 21:11:30
+ * @Program name : index.html
+ * Copyright (c) 2022 by Junchen-Yi Taohua-Nong, All Rights Reserved. 
+ * -->
+ <!DOCTYPE HTML>
+ <html>
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/logo_1x.ico" media="screen">
+    <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="Description" content="人类高质量湾岸 Midnight 官方网站">
+		<meta property="og:description" content="人类高质量湾岸 Midnight 官方网站">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/nav.css">
+		<link rel="stylesheet" href="./css/footer.css">
+		<link rel="stylesheet" href="./css/index3.css">
+		<link rel="stylesheet" href="./css/skeleton.css">
+		<link rel="stylesheet" href="./css/welcome.css">
+		<link rel="stylesheet" href="./css/language-index.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/bootstrap-gui.min.css">
+		<link rel="stylesheet" href="./css/MNUIwebkit.css">
+        <script src="./js/index.js" type="text/javascript"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"crossorigin="anonymous"></script>
+        <meta name="viewport"content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/welcome.js"></script>
+        <script src="./js/popper.min.js"></script>
+        <script src="./js/jquery-slim.min.js"></script>
+		<script src="./js/index.js"></script>
+		<script src="https://img.midnightnth.club/4.0/version/public_beta.js"></script>
+		<script src="./js/ranking.js"></script>
+		<script src="./js/rankinglist.js"></script>
+		<script src="./js/dna.js"></script>
+		<script src="./js/language-index.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/web_index.css" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/180.png">
+        <title>Midnight｜首页</title>
+
+</head>
+		<!--welcome begin-->
+		<div id="wel-main" class="wel-main">
+			<div id="wel-page1" class="wel-page1">
+				<div class="wel-page1-body">
+					<div class="wel-page1-4logo">
+						<img class="wel-page1-4logo-img" src="./img/mnui4.png">
+					</div>
+					<div class="wel-page1-text">
+						<p class="wel-page1-text-p">全新版本 4.0 发布</p>
+					</div>
+				</div>
+				<div class="wel-page1-button">
+					<button onclick="welchange2()" class="wel-page1-button-but">
+						<p class="but-p">继续</p>
+					</button>
+				</div>
+			</div>
+			
+			<div id="wel-page2" class="wel-page2" style="display: none;">
+				<div class="wel-page2-body">
+					<div class="wel-page2-text">
+						<p class="wel-page2-text-p">新 UI 体验</p>
+						<p class="wel-page2-text-p2">全新的设计，方便快捷浏览</p>
+					</div>
+					<div class="wel-page2-ui">
+						<div id="page2-ui1" class="wel-page2-ui-1-admin wel-page2-ui-1">
+							<img class="wel-page2-ui-1-img" src="./img/ui1.png">
+						</div>
+						<div id="page2-ui2" class="wel-page2-ui-2-admin wel-page2-ui-2">
+							<img class="wel-page2-ui-2-img" src="./img/ui2.png">
+						</div>
+						<div id="page2-ui3" class="wel-page2-ui-3-admin wel-page2-ui-3">
+							<img class="wel-page2-ui-3-img" src="./img/ui3.png">
+						</div>
+					</div>
+				</div>
+				<div class="wel-page2-button">
+					<button onclick="welchange3()" class="wel-page1-button-but">
+						<p class="but-p">继续</p>
+					</button>
+				</div>
+			</div>
+			
+			<div id="wel-page3" class="wel-page3">
+				<div class="wel-page3-body">
+					<div class="wel-page3-text">
+						<p class="wel-page3-text-p">全新排行榜</p>
+						<p class="wel-page3-text-p2">长达半年打造的排行榜功能，<br>等您来发现</p>
+					</div>
+					<div class="wel-page3-ui">
+						<div id="page3-ui1" class="wel-page3-ui-1-admin wel-page3-ui-1">
+							<img class="wel-page3-ui-1-img" src="./img/rankname.png">
+						</div>
+						<div id="page3-ui2" class="wel-page3-ui-2-admin wel-page3-ui-2">
+							<img class="wel-page3-ui-2-img" src="./img/rank.png">
+						</div>
+						
+					</div>
+				</div>
+				<div class="wel-page3-button">
+					<button onclick="welchange4()" class="wel-page3-button-but">
+						<p class="but-p">继续</p>
+					</button>
+				</div>
+			</div>
+			
+			<div id="wel-page4" class="wel-page4">
+				<div class="wel-page4-body">
+					<div class="wel-page4-text">
+						<p id="page4-ui1" class="wel-page4-ui-1-admin wel-page4-ui-1 wel-page4-text-p" class="">开始使用</p>
+						<p id="page4-ui2" class="wel-page4-ui-2-admin wel-page4-ui-2 wel-page4-text-p2" class="">Midnight UI 4</p>
+					</div>
+				</div>
+				<div id="page4-ui3" class="wel-page4-ui-3-admin wel-page4-ui-3 wel-page4-button" class="">
+					<button onclick="welchange5()" class="wel-page4-button-but">
+						<p class="but-p" style="font-size: 16px;">按下按钮开始使用</p>
+					</button>
+				</div>
+			</div>
+			
+		</div>
+		<!--welcome end-->
+	<script>
+		
+	</script>
+
+<body id="main-body" onload="cn_text_index();cn_url1();index_ver();check_device();ranking_list();ranking_data();" οncοntextmenu=self.event.returnValue=false onselectstart="return false">
+	<div class="main">
+    <div id="defaultId1" class=" gui-xs gui-sm  testBorder  " style="background-color: #F5F5F7;"></div>
+    <div id="c7a61c" class=" testBorder  u37cbd">
+        <div>
+            <div>
+                <nav class="navbar navbar-expand-md g-dark navbar-dark "style="background-color: #000000;">
+                    <a class="navbar-brand" href="index.html"><img class="nav-logo" src="./img/nav_midnight.png">
+						<svg width="52" height="22" xmlns="http://www.w3.org/2000/svg" class="badge-nav" aria-label="Beta 版" role="img"><path fill-rule="evenodd" d="M41 0c6.075 0 11 4.925 11 11s-4.925 11-11 11H11C4.925 22 0 17.075 0 11S4.925 0 11 0h30Zm-2.534 6.9H35.99l-2.903 8.455h2.152l.558-1.918h2.862l.558 1.918h2.153L38.466 6.9Zm-5.246 0h-7.036v1.642h2.495v6.813h2.047V8.542h2.494V6.9Zm-8.305 0h-5.79v8.455h5.79v-1.642h-3.742v-1.859h3.523v-1.511h-3.523v-1.8h3.742V6.9Zm-10.313 0H10.7v8.455h4.016c.61 0 1.137-.1 1.58-.298.444-.199.787-.48 1.03-.844.243-.365.364-.793.364-1.285v-.012c0-.357-.087-.683-.26-.977a2.048 2.048 0 0 0-.706-.714 2.116 2.116 0 0 0-1.008-.304v-.11c.3-.042.568-.149.804-.32.236-.17.423-.383.562-.64.139-.256.208-.535.208-.836v-.011c0-.435-.107-.81-.32-1.125-.215-.314-.521-.556-.92-.725-.4-.17-.883-.254-1.448-.254Zm-1.855 4.728h1.382c.317 0 .585.043.804.128.218.086.384.211.498.377.113.166.17.37.17.611v.012c0 .37-.124.653-.372.85-.248.197-.608.295-1.08.295h-1.402v-2.273Zm24.536-2.92.945 3.251h-2.003l.947-3.251h.11Zm-24.536-.355h1.317c.386 0 .687.09.901.267.215.178.323.424.323.736v.012c0 .313-.116.558-.348.735-.231.177-.56.266-.984.266h-1.209V8.353Z"></path></svg>
+					</a>
+                    <div class="language-2">
+                        <!-- <form action="" method="get">
+                            <select class="language" name="" onchange="javascript:if (this.options[this.selectedIndex].value != '')window.open(this.options[this.selectedIndex].value,'_self');this.options[0].selected;">
+                                <option value="https://www.en.midnightnth.club">英</option>
+                                <option value="" selected="selected">中</option>
+                            </select>
+                        </form> -->
+						<div class="language-index-nav">
+							<a onclick="open_language()">中</a>
+						</div>
+                        <button id="nopen" herf="javascript:js_navopen()"  class="navbar-toggler"
+                            type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><svg
+                                class="ham hamRotate ham8" viewBox="0 0 100 100" width="35"
+                                onclick="this.classList.toggle('active')">
+                                <path class="line top"
+                                    d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20">
+                                </path>
+                                <path class="line middle" d="m 30,50 h 40"></path>
+                                <path class="line bottom"
+                                    d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20">
+                                </path>
+                            </svg></span></button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li id="cn-index-li1" class="nav-item"><a id="cn-index1" class="nav-link-1"href="javascript:void(0)">加载中......</a></li>
+                            <li id="cn-index-li2" class="nav-item"><a id="cn-index2" class="nav-link-1"href="javascript:void(0)">加载中......</a></li>
+                            <li id="cn-index-li3" class="nav-item"><a id="cn-index3" class="nav-link-1"href="javascript:void(0)">加载中......</a></li>
+                            <li id="cn-index-li4" class="nav-item"><a id="cn-index4" class="nav-link-1"href="javascript:void(0)">加载中......</a></li>
+                            <li id="cn-index-li5" class="nav-item"><a id="cn-index5" class="nav-link-1"href="javascript:void(0)">加载中......</a></li>
+                            <li id="cn-index-li6" class="nav-item"><a id="cn-index6" class="nav-link-1"href="javascript:void(0)">加载中......</a></li>
+                            <li id="cn-index-li7" class="nav-item"><a id="cn-index7" class="nav-link-1"href="javascript:void(0)">加载中......</a></li>
+                            <li id="cn-index-li8" class="nav-item"><a id="cn-index8" class="nav-link-1"href="javascript:void(0)">加载中......</a></li>
+                            <li id="cn-index-li9" class="nav-item"><a id="cn-index9" class="nav-link-1"href="javascript:void(0)">加载中......</a></li>
+                            <li id="cn-index-li10" class="nav-item"><a id="cn-index10" class="nav-link-1"href="javascript:void(0)">加载中......</a></li>
+							<li id="version-nav" class="version-nav"></li>
+                            <!-- <li class="nav-item"><a class="nav-link-1" href="./page/jingdian.html"></a></li>
+                  <li class="nav-item"><a class="nav-link-1" href="./page/mingyan.html"></a></li>
+                  <li class="nav-item"><a class="nav-link-1" href="./page/about.html"></a></li> -->
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+		</div>
+	</div>
+		<!--skeleton begin-->
+		<div id="skeleton" class="skeleton" style="display: block;">
+			<div class="skeleton-index-img skeleton-anim">
+				
+			</div>
+			<div class="skeleton-index-com">
+				<div class="skeleton-index-com-title skeleton-anim">
+					
+				</div>
+				<div class="skeleton-index-com-body skeleton-anim">
+					
+				</div>
+			</div>
+			<div class="skeleton-index-ranking skeleton-anim">
+				
+			</div>
+			<div class="skeleton-index-dna">
+				<div class="skeleton-index-dna-title skeleton-anim">
+					
+				</div>
+				<div class="skeleton-index-dna-body skeleton-anim">
+					
+				</div>
+				
+			</div>
+			<div class="skeleton-index-dna-list skeleton-anim">
+				<p class="text-ske1">你好</p>
+			</div>
+			<div class="skeleton-index-dna-card skeleton-anim">
+				<p class="text-ske2">你好</p>
+			</div>
+			<div class="skeleton-index-about skeleton-anim">
+				<p class="text-ske3">你好</p>
+			</div>
+			<div class="skeleton-index-join">
+				<div class="skeleton-index-join-title skeleton-anim">
+					<p class="text-ske4">你好</p>
+				</div>
+				<div class="skeleton-index-join-body skeleton-anim">
+					
+				</div>
+			</div>
+			<div class="skeleton-footer skeleton-anim">
+				
+			</div>
+		</div>
+		<!--skeleton over-->
+	<div id="index-main" style="display: none;">
+		<div class="top">
+			<div align="center" class="top-text">
+				<p class="top-text-p">
+					真·midnight
+				</p>
+			</div>
+		</div>
+		<div class="main-div">	
+	
+			<div  class="com">
+				<div class="com-tit">
+					<p class="com-tit-p">
+						Competition
+					</p>
+				</div>
+				<div class="com-text">
+					<p class="com-text-p">
+						various and interesting games in our team
+					</p>
+				</div>
+			</div>
+			
+			<div class="ranking">
+				<div class="ranking-main">
+					
+					<div class="ranking-nav">
+						<ul class="ranking-nav-ul">
+							<li onclick="li_climb()" class="ranking-nav-li">
+								<button id="ranking-climb-li" class="ranking-button-after">爬坡赛</button>
+							</li>
+							<li onclick="li_go()" class="ranking-nav-li">
+								<button id="ranking-go-li" class="ranking-button-befor">冲刺比拼</button>
+							</li>
+							<li onclick="li_keep()" class="ranking-nav-li">
+								<button id="ranking-keep-li" class="ranking-button-befor">巡航比拼</button>
+							</li>
+							<li onclick="li_tool()" class="ranking-nav-li">
+								<button id="ranking-tool-li" class="ranking-button-befor">技能比拼</button>
+							</li>
+						</ul>
+					</div>
+					<hr class="ranking-hr">
+				<!-- Ranking begin -->
+					<div id="ranking-climb" class="ranking-body" style="display:inherit;">
+						<div  class="ranking-climb-body">
+							<div class="ranking-climb-name-list">
+								<ul class="ranking-climb-ul" id="ranking-data-climb">
+									<li id="ranking-climb-1" class="ranking-climb-li">1.%drank1</li>
+									<li id="ranking-climb-2" class="ranking-climb-li">2.%drank2</li>
+									<li id="ranking-climb-3" class="ranking-climb-li">3.%drank3</li>
+									<li id="ranking-climb-4" class="ranking-climb-li">4.%drank4</li>
+									<li id="ranking-climb-5" class="ranking-climb-li">5.%drank5</li>
+								</ul>
+								<ul class="ranking-nonedata" id="ranking-nonedata-climb" style="display: none;">
+									<li class="ranking-nonedata-li">暂无数据</li>
+								</ul>
+							</div>
+							<div class="ranking-climb-img">
+								<div class="ranking-cilmb-img-div">
+									<img class="ranking-climb-img-img" src="./img/ranking-climb-img.png">
+								</div>
+							</div>
+						</div>
+					</div>
+				<!-- Ranking end -->
+				
+				<!-- Go begin -->
+					<div class="ranking-body" id="ranking-go" style="display:none;">
+						<div class="ranking-climb-body">
+							<div class="ranking-climb-name-list">
+								<ul class="ranking-climb-ul" id="ranking-data-go">
+									<li id="ranking-go-1" class="ranking-climb-li">1.%dgo1</li>
+									<li id="ranking-go-2" class="ranking-climb-li">2.%dgo2</li>
+									<li id="ranking-go-3" class="ranking-climb-li">3.%dgo3</li>
+									<li id="ranking-go-4" class="ranking-climb-li">4.%dgo4</li>
+									<li id="ranking-go-5" class="ranking-climb-li">5.%dgo5</li>
+								</ul>
+								<ul class="ranking-nonedata" id="ranking-nonedata-go"  style="display: none;">
+									<li class="ranking-nonedata-li">暂无数据</li>
+								</ul>
+							</div>
+							<div class="ranking-climb-img">
+								<div class="ranking-cilmb-img-div">
+									<img class="ranking-climb-img-img" src="./img/ranking-climb-img.png">
+								</div>
+							</div>
+						</div>
+					</div>
+				<!-- Go end -->
+				
+				<!-- keep begin -->
+					<div class="ranking-body" id="ranking-keep" style="display:none;">
+						<div class="ranking-climb-body">
+							<div class="ranking-climb-name-list">
+								<ul class="ranking-climb-ul" id="ranking-data-keep">
+									<li id="ranking-keep-1" class="ranking-climb-li">1.%dkeep1</li>
+									<li id="ranking-keep-2" class="ranking-climb-li">2.%dkeep2</li>
+									<li id="ranking-keep-3" class="ranking-climb-li">3.%dkeep3</li>
+									<li id="ranking-keep-4" class="ranking-climb-li">4.%dkeep4</li>
+									<li id="ranking-keep-5" class="ranking-climb-li">5.%dkeep5</li>
+								</ul>
+								<ul class="ranking-nonedata" id="ranking-nonedata-keep"  style="display: none;">
+									<li class="ranking-nonedata-li">暂无数据</li>
+								</ul>
+							</div>
+							<div class="ranking-climb-img">
+								<div class="ranking-cilmb-img-div">
+									<img class="ranking-climb-img-img" src="./img/ranking-climb-img.png">
+								</div>
+							</div>
+						</div>
+					</div>
+				<!-- keep end -->
+				
+				<!-- tool begin -->
+					<div class="ranking-body" id="ranking-tool" style="display:none;">
+						<div class="ranking-climb-body">
+							<div class="ranking-climb-name-list">
+								<ul class="ranking-climb-ul" id="ranking-data-tool">
+									<li id="ranking-tool-1" class="ranking-climb-li">1.%dtool1</li>
+									<li id="ranking-tool-2" class="ranking-climb-li">2.%dtool2</li>
+									<li id="ranking-tool-3" class="ranking-climb-li">3.%dtool3</li>
+									<li id="ranking-tool-4" class="ranking-climb-li">4.%dtool4</li>
+									<li id="ranking-tool-5" class="ranking-climb-li">5.%dtool5</li>
+								</ul>
+								<ul class="ranking-nonedata" id="ranking-nonedata-tool" style="display: none;">
+									<li class="ranking-nonedata-li">暂无数据</li>
+								</ul>
+							</div>
+							<div class="ranking-climb-img">
+								<div class="ranking-cilmb-img-div">
+									<img class="ranking-climb-img-img" src="./img/ranking-climb-img.png">
+								</div>
+							</div>
+						</div>
+					</div>
+				<!-- tool end -->
+				</div>
+			</div>
+			
+			<div class="dna">
+				<div class="dna-text">
+					<div class="dna-text-tit">
+						<p class="dna-text-tit-p">
+							why go biking
+						</p>
+					</div>
+					<div class="dna-text-body">
+						<p class="dna-text-body-p">
+							The DNA of the team<br> Midnight
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="dna-list">
+				<div class="dna-list-nav">
+					<ul class="dna-list-ul">
+						<li onclick="like_li()" id="dna-like" class="dna-list-li">
+							<button id="dna-like-li" class="dna-button-after">热爱</button>
+						</li>
+						<li onclick="healthy_li()" id="dna-healthy" class="dna-list-li">
+							<button id="dna-healthy-li" class="dna-button-befor">健康</button>
+						</li>
+						<li onclick="friend_li()" id="dna-friend" class="dna-list-li">
+							<button id="dna-friend-li" class="dna-button-befor">友谊</button>
+						</li>
+						<li onclick="free_li()" id="dna-free" class="dna-list-li">
+							<button id="dna-free-li" class="dna-button-befor">自由</button>
+						</li>
+					</ul>
+				</div>
+				<hr class="dna-hr">
+		<!-- like begin -->
+			<div id="dna-card-like" style="display: block;" class="dna-card">
+				<div  class="dna-card-like">
+					<div class="dna-card-img">
+						<img class="dna-card-img-img" src="./img/dna-like-img.JPG">
+					</div>
+					<div class="dna-card-text">
+						<div class="dna-card-text-div">
+							<p class="dna-class-text-p">对于骑行的热爱已经不用多说了，俱乐部创立的初心就在于一群喜欢骑车的人聚在一块，友好交流友好沟通。不变的热忱和不变的信念伴随在我们左右，将年轻与热爱投入到骑行中是一件多么美好的事啊。
+</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- like finish -->
+		
+		<!-- healthy begin -->
+			<div id="dna-card-healthy" style="display: none;">
+				<div  class="dna-card-like">
+					<div class="dna-card-img">
+						<img class="dna-card-img-img" src="./img/dna-like-img.JPG">
+					</div>
+					<div class="dna-card-text">
+						<div class="dna-card-text-div">
+							<p class="dna-class-text-p">健康的体魄，壮硕的身躯是我们骄傲与炫耀的资本，健康不可忽视，在生活闲下来的时间进行一项合理的运动，既能强身健体又能拓宽视野，结交朋友，做健康的自己
+</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- healthy finish -->
+		
+		<!-- friend begin -->
+			<div id="dna-card-friend" style="display: none;">
+				<div  class="dna-card-like">
+					<div class="dna-card-img">
+						<img class="dna-card-img-img" src="./img/dna-like-img.JPG">
+					</div>
+					<div class="dna-card-text">
+						<div class="dna-card-text-div">
+							<p class="dna-class-text-p">礼貌待人，严于律己</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- friend finish -->
+		
+		<!-- free begin -->
+			<div id="dna-card-free" style="display: none;">
+				<div  class="dna-card-like">
+					<div class="dna-card-img">
+						<img class="dna-card-img-img" src="./img/dna-like-img.JPG">
+					</div>
+					<div class="dna-card-text">
+						<div class="dna-card-text-div">
+							<p class="dna-class-text-p">自由是长久以来人人都需要的，需要放松自己，放空精神，适当的休息，呼吸新鲜空气，自由的骑行，不用思考关于学习与工作的项目，感受风从耳边划过的快感，做天底下最自由的人</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- free finish -->
+			</div>
+			
+			<div class="us">
+				<div class="us-card">
+					<div class="us-text">
+						<p class="us-text-title-p">About Us</p>
+					</div>
+					<div class="us-img">
+						<img class="us-img-img" src="./img/us.png">
+					</div>
+					<div class="us-text-title2">
+						<p class="us-text-title2-p">湾岸<br>Midnight</p>
+					</div>
+					<div class="us-text-body">
+						<div class="apple-div" tg-name="_" tg-ref="container" tg-from="1" tg-to="10" tg-step="1">
+							<section tg-name="_" tg-map="1,2,3,4,5,6,7,8,9,10: 1">
+								<span class="apple-span" tg-name="opacity" tg-filter="2!" tg-follow="container" style="">
+									湾岸 Midnight自行车队始建于2019年2月22日，随着时间的推移车队人数达到了18人，车队大部分为高中生，						
+								</span>
+								<span class="apple-span" tg-name="opacity" tg-filter="3!" tg-follow="container">
+									一群热衷于挑战极限，热爱骑行，不断探索，坚持不懈的学生。					
+								</span>
+								 <span class="apple-span" tg-name="opacity" tg-filter="4!" tg-follow="container">
+									在骑行中不断的提升自我，突破自己的极限，挑战从未挑战过的极限。						
+								</span>
+								 <span class="apple-span" tg-name="opacity" tg-filter="5!" tg-follow="container">
+									队员们个个多才多艺，不仅仅局限于热爱骑行，还有着一份不同于别人的爱好与自己的一技之长，						
+								</span>
+								 <span class="apple-span" tg-name="opacity" tg-filter="6!" tg-follow="container">
+									即使学业繁重但是也不能阻止这些年少气盛的少年骑着自行车						
+								</span>
+								<span class="apple-span" tg-name="opacity" tg-filter="6,7" tg-map="6: 0.3; 7: 1" tg-follow="container" class="pro">
+									奔波在山林与公路上。					
+								</span>
+							</section>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="join">
+				<div class="join-text">
+					<div class="join-title">
+						<p class="join-title-text-p">
+							Join us!!!
+						</p>
+					</div>
+					<div class="join-body-text">
+						<p class="join-body-text-p">
+							riding togeter and getting more happier
+						</p>
+					</div>
+				</div>
+			</div>
+		</div><!--main-div-->
+		
+		
+			
+	
+		<footer class="footer" style="padding-bottom:40px!important;padding-top: 30;margin-top: 0!important;margin-bottom: 0px!important;">
+			
+			<!-- <hr style="margin: 15px;">
+				<nav class="nav-fooder">
+					<a class="home-a">
+						<img href="index.html" src="./img/cyc.svg"style="" class="home-icon"\>
+					</a>
+					<div class="nav-fooder-text">
+						<ol class="nav-fooder-ol">
+							<li class="nav-fooder-li">
+								>
+								<div class="nav-fooder-li-text">
+									<a href="index.html">
+									首页
+									</a>
+								</div>
+							</li>
+						</ol>
+					</div>
+				</nav>
+				<hr style="margin: 15px;"> -->
+							<!-- <section class="section-1">
+			
+								<ol class="section-1 ol">
+									<li class="li-footer-1">
+											1. 以上内容等待填充
+									</li>
+									<li class="li-footer-2">
+											2. 目前只能访问首页，其他页面尚未完成
+								</ol>
+								
+							</section> -->
+							<div class="section-1-country"style="margin-top: 30px;">
+								中文
+							</div>
+							<section class="section-2">
+								<div class="copy-top">
+									<div class="copy">
+										<p class="cop">
+										Copyright ©2022 &nbsp;Junchen Yi&nbsp;&nbsp;Taohua Nong&nbsp;. 保留所有权利
+										</p>
+									<div class="about-home">
+										<a class="link" href="./page/about.html">关于我们</a>
+										<a class="link" href="./page/Legal.html">法律信息</a>
+										<a class="link" href="./page/.html">使用条款</a>
+										<a class="link" href="./page/map.html">网站地图</a>
+									</div>
+									<div class="about-home" align="right">
+										
+										<a class="link" href="index.html">中文</a>
+										<a class="link" href="./en/index.html">English</a>
+										
+									</div>
+									<div class="about-home" style="">
+											<a id="fooder-ver" class="link" href="./page/version.html"></a>
+											<a class="link" href="http://midnightnth.club:59144">Admin Login</a>
+									</div>
+									<div class="about-home" align="right">
+										<a class="link" href="https://beian.miit.gov.cn/#/Integrated/index" >桂 ICP 备 2022004545 号</a>
+										<a class="link" href="http://www.beian.gov.cn" >桂公网安备 45010302002835号</a>
+									</div>
+									
+							</section>					
+						</footer>
+		
+		</div><!--skeleton over-->
+		
+		<div id="language-change" class="language-display-1" style="display: none;"><!--language begin-->
+			<div class="language-item">
+				<div onclick="close_language()" class="language-close">
+					<img class="language-close-img" src="./img/close.svg">
+				</div>
+				<div class="language-logo">
+					<img class="language-logo-img" src="./img/1024.png">
+				</div>
+				<div class="language-text-title">
+					<p class="language-text-title-p">Please choose your language</p>
+				</div>
+				<div class="language-chose">
+					<a href="">
+						<button class="language-chose-button">Chinese</button>
+					</a>
+					<a href="http://midnightnth.club:12">
+						<button class="language-chose-button button-right">English</button>
+					</a>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+	</body>
+</html>
