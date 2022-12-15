@@ -1,0 +1,240 @@
+/* @Author       : Junchen-Yi
+ * @Designer	 : Taohua-Nong
+ * @Date         : 2022-10-09 19:03:02
+ * @Program name : schedule.css
+ * Copyright (c) 2022 by Junchen-Yi Taohua-Nong, All Rights Reserved.
+ */
+@font-face {
+	font-family:hwxk;
+	src: url(../font/huawenxinkai.TTF);
+}
+
+.schedule-main{
+	width: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.schedule-head{
+/* 	padding-top: 30px; */
+	margin-bottom: 60px;
+}
+.schedule-head-title{
+	
+}
+.schedule-head-title-p{
+	font-size: 30px;
+}
+.schedule-head-img{
+	
+}
+.schedule-head-img-img{
+	width: 100%;
+	height: 843px;
+	object-fit: cover;
+}
+.schedule-black{
+	top: 55px;
+	left: 0;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 843px;
+	position: absolute;
+	background: -webkit-gradient(linear,left top,right top,color-stop(8.19%,#000000),color-stop(75.69%,rgba(0,0,0,0)));
+	background: linear-gradient(90deg,#000000 8.19%,rgba(0,0,0,0)75.69%);
+}
+.schedule-black-top{
+	top: 55px;
+	left: 0;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 230px;
+	position: absolute;
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(21.21%,#000000),to(rgba(0,0,0,0)));
+	background: linear-gradient(180deg,rgba(0,0,0,.85)21.21%,rgba(0,0,0,0)100%);
+}
+.schedule-head-text{
+	position: absolute;
+	top: 350px;
+	z-index: 300;
+	margin-left: 30px;
+}
+.schedule-head-text-p1{
+	color: #ffffff;
+	font-size:40px;
+	font-weight: 700;
+	font-family: hwxk;
+	}
+.schedule-head-text-p2{
+	color: #933493;
+	font-size:37px ;
+	font-weight: 700;
+	font-family: hwxk;
+	
+}
+.schedule-item{
+	width: 100%;
+	height: 100%;
+}
+.schedule-card{
+	margin-bottom: 90px;
+	width: 100%;
+	height: 100%;
+}
+.data-card{
+	position: absolute;
+	right: 25px;
+	display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: center;
+	    align-items: center;
+		width: 120px;
+		height: 195px;
+		background-color: rgba(0,0,0,.6);
+}
+.data-name{
+	margin-bottom: 5px;
+}
+.data-name-p{
+	color: #ffffff;
+	font-size: 14px;
+	letter-spacing: .2em;
+	font-weight: 400;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.data-num{
+	margin-bottom: 5px;
+}
+.data-num-p{
+	color: #ffffff;
+	font-size: 45px;
+	font-family: hwxk;
+}
+.data-day{
+	
+}
+.data-day-p{
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	
+}
+.schedule-img{
+	
+}
+.schedule-img-img{
+	width: 100%;
+	height: 100%;
+}
+.schedule-text{
+	margin-top: 40px;
+}
+.schedule-text-name{
+	margin-left: 10px;
+}
+.schedule-text-name-p{
+	font-size: 30px;
+	color: #933493;
+	font-weight: 700;
+	letter-spacing: .1em;
+}
+.schedule-text-loca{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.schedule-text-lica-p{
+	color: #000000;
+	font-size: 20px;
+	font-weight: 700;
+}
+.schedule-detal{
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.schedule-detal-long{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+	margin-bottom: 20px;
+}
+.schedule-detal-long-svg{
+	margin-right: 10px;
+	width: 32px;
+	height: 32px;
+}
+.schedule-detal-long-name{
+	margin-right: 15px;
+	color: #933493;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+}
+.schedule-detal-long-num{
+	color: #000000;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.schedule-detal-location{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	margin-bottom: 20px;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.schedule-detal-location-svg{
+	margin-right: 10px;
+	width: 32px;
+	height: 32px;
+}
+.schedule-detal-location-name{
+	margin-right: 15px;
+	color: #933493;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.schedule-detal-location-num{
+	color: #000000;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.schedule-detal-hour{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	margin-bottom: 20px;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.schedule-detal-hour-svg{
+	margin-right: 10px;
+	width: 32px;
+	height: 32px;
+}
+.schedule-detal-hour-name{
+	margin-right: 15px;
+	color: #933493;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.schedule-detal-hour-num{
+	color: #000000;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
