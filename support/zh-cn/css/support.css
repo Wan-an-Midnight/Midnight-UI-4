@@ -1,0 +1,325 @@
+/* @Author       : Junchen Yi
+ * @Designer	 : Taohua-Nong
+ * @Date         : 2022-09-23 01:28:23
+ * @Program name : support.css
+ * Copyright (c) 2022 by Junchen Yi Taohua-Nong, All Rights Reserved.
+ */
+@import url(MNUIwebkit.css);
+body{
+	    background-color: var(--background-color)!important;
+		font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+		
+}
+p{
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+}
+span{
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+}
+div{
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+}
+hr{
+	border-top: 1px solid #d9d9d9;
+}
+:root{
+	--text-color:#000000;
+	--background-color:#f5f5f7;
+}
+.support{
+	    background-color: var(--background-color);
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 980px;
+	    margin-bottom: 120px;
+}
+@media only screen and (max-width:768px) {
+.support{
+	margin-top: 30px;
+	    background-color: var(--background-color);
+	    margin-left: auto;
+	    margin-right: auto;
+		margin-bottom: 120px;
+		width: 100%;
+}
+}
+.support-top{
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.support-top-text{
+	color: var(--text-color);
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+	
+}
+.support-top-p{
+	font-size: 31px;
+	font-weight: 500;
+	letter-spacing: .011em;
+}
+.support-img{
+	left: 0px;
+	right: 0px;
+	margin-top: 55px;
+}
+.support-img-img{
+	width: 100%;
+	height: 280px;
+}
+.support-chose{
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.chose-flex{
+	margin-left: 60px;
+	    margin-right: 60px;
+	    display: flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    align-content: center;
+	    justify-content: space-between;
+	    align-items: center;
+}
+.chose-text-p{
+	font-size: 17px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+}
+.chose-card{
+	display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: center;
+	    align-items: center;
+		margin-bottom: 48px;
+		width: 110px;
+}
+.chose-img{
+	margin-bottom: 20px;
+}
+.chose-img-img{
+	width: 68px;
+	height: 68px;
+}
+.support-hr{
+	border: 0;
+	    height: 0;
+	    border-bottom: 1px solid #7e7e7e;
+		left:0 ;
+		right: 0;
+}
+.support-noi{
+	text-align: center;
+	margin-top: 50px;
+}
+.support-noi-img{
+	margin: 0 auto;
+	
+}
+.support-noi-img-img{
+	width: 60px;
+	height: 60px;
+}
+.support-noi-text{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.support-noi-text-p{
+	color: #0070c9;
+	font-weight: 400;
+	font-size: 15px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+}
+.support-hr-info{
+	border: 0;
+	    height: 0;
+	    border-bottom: 1px solid #7e7e7e;
+		margin-left: 40px;
+		margin-right: 40px;
+}
+.all-page{
+ background-color: var(--background-color);
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 980px;
+	    margin-bottom: 120px;
+}
+@media only screen and (max-width:768px) {
+.all-page{
+	margin-top: 30px;
+	    background-color: var(--background-color);
+	    margin-left: auto;
+	    margin-right: auto;
+		margin-bottom: 120px;
+		width: 87.5%;
+}
+}
+.all-top{
+	margin-top: 100px;
+	margin-left: 10px;
+	margin-right: 30px;
+}
+.top-text-p{
+	color: var(--text-color);
+	font-size: 25px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.parf-head{
+	margin-top: 30px;
+}
+.parf-head-text{
+	text-align: right;
+}
+.parf-head-num{
+	color:#999 ;
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.parf-head-hr{
+	border: #999 0.5px solid;
+	margin: 0;
+}
+.wz{
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.wz-title{
+	
+}
+.wz-title-p{
+	font-size: 1.125rem;
+	font-weight: 600;
+	    color: #333;
+	    overflow: hidden;
+	    max-height: 3.033em;
+}
+.wz-info{
+	margin-top: 10px;
+}
+.wz-info-p{
+	
+}
+.wz-info-span-data{
+	color: #767676;
+	font-size: 15px;
+}
+.wz-info-span-data::after{
+	color: #333;
+	    content: '-';
+	    margin: 0 0.25rem;
+	    margin: 0 4px\9;
+}
+.wz-info-span-text{
+	color: #333333;
+	font-size: 15px;
+	font-weight: 400;
+}
+strong{
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: 450;
+}
+.line{
+	content: '-';
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.wz-url{
+	margin-top: 5px;
+}
+.wz-url-p{
+	color: #017acd;
+	font-size: 19px;
+	font-weight: 400;
+}
+.sup-word{
+	width: 63%;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+@media only screen and (max-width:768px) {
+
+.sup-word{
+	width: 87%;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+}
+.sup-word-head{
+	padding-top: 32px;
+}
+.sup-word-title{
+	font-size: 28px;
+	font-weight: 500;
+	    font-family: SF Pro SC,SF Pro Display,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.sup-word-body{
+	margin-top: 17px;
+	margin-bottom: 20px;
+}
+.sup-word-body-p{
+	font-size: 19px;
+	font-weight: 300;
+		font-family: SF Pro SC,SF Pro Display,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.sup-word-text{
+	margin-top: 40px;
+}
+.sup-word-text-head{
+	margin-top: 24px;
+}
+.sup-word-text-head-p{
+	font-size: 24px;
+	font-weight: 500;
+}
+.sup-word-text-info{
+	margin-top: 30px;
+}
+.sup-word-text-parf{
+	margin-top: 30px;
+	line-height: 1.52947;
+}
+.sup-word-text-parf-p{
+	font-size: 17px;
+	font-weight: 400;
+}
+.sup-word-url{
+	color: #0070c9!important;
+	text-decoration: none;
+}
+.sup-word-ul{
+	margin-left: 31px;
+	font-size: 17px;
+	font-weight: 400;
+}
+.sup-word-li{
+	
+}
+.sup-word-li::marker{
+	unicode-bidi: isolate;
+	    font-variant-numeric: tabular-nums;
+	    text-transform: none;
+	    text-indent: 0px !important;
+	    text-align: start !important;
+	    text-align-last: start !important;
+}
+.sup-word-deadline{
+	width: 90%;
+	margin:  0 auto;
+	margin-left: 30px;
+}
+.sup-word-deadline-p{
+	font-weight: 400;
+	font-size: 14px;
+}
