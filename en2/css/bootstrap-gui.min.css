@@ -1,0 +1,204 @@
+.font-1 {
+  font-size: inherit;
+}
+
+.font-2 {
+  font-size: 0.75em;
+}
+
+.font-3 {
+  font-size: 0.8125em;
+}
+
+.font-4 {
+  font-size: 0.875em;
+}
+
+.font-5 {
+  font-size: 0.9375em;
+}
+
+.font-6 {
+  font-size: 1em;
+}
+
+.font-7 {
+  font-size: 1.0625em;
+}
+
+.font-8 {
+  font-size: 1.125em;
+}
+
+.font-9 {
+  font-size: 1.1875em;
+}
+
+.font-10 {
+  font-size: 1.25em;
+}
+
+.font-11 {
+  font-size: 1.3125em;
+}
+
+.font-12 {
+  font-size: 1.375em;
+}
+
+@media (min-width: 576px) {
+  .font-sm-1 {
+    font-size: inherit;
+  }
+  .font-sm-2 {
+    font-size: 0.75em;
+  }
+  .font-sm-3 {
+    font-size: 0.8125em;
+  }
+  .font-sm-4 {
+    font-size: 0.875em;
+  }
+  .font-sm-5 {
+    font-size: 0.9375em;
+  }
+  .font-sm-6 {
+    font-size: 1em;
+  }
+  .font-sm-7 {
+    font-size: 1.0625em;
+  }
+  .font-sm-8 {
+    font-size: 1.125em;
+  }
+  .font-sm-9 {
+    font-size: 1.1875em;
+  }
+  .font-sm-10 {
+    font-size: 1.25em;
+  }
+  .font-sm-11 {
+    font-size: 1.3125em;
+  }
+  .font-sm-12 {
+    font-size: 1.375em;
+  }
+}
+
+@media (min-width: 768px) {
+  .font-md-1 {
+    font-size: inherit;
+  }
+  .font-md-2 {
+    font-size: 0.75em;
+  }
+  .font-md-3 {
+    font-size: 0.8125em;
+  }
+  .font-md-4 {
+    font-size: 0.875em;
+  }
+  .font-md-5 {
+    font-size: 0.9375em;
+  }
+  .font-md-6 {
+    font-size: 1em;
+  }
+  .font-md-7 {
+    font-size: 1.0625em;
+  }
+  .font-md-8 {
+    font-size: 1.125em;
+  }
+  .font-md-9 {
+    font-size: 1.1875em;
+  }
+  .font-md-10 {
+    font-size: 1.25em;
+  }
+  .font-md-11 {
+    font-size: 1.3125em;
+  }
+  .font-md-12 {
+    font-size: 1.375em;
+  }
+}
+
+@media (min-width: 992px) {
+  .font-lg-1 {
+    font-size: inherit;
+  }
+  .font-lg-2 {
+    font-size: 0.75em;
+  }
+  .font-lg-3 {
+    font-size: 0.8125em;
+  }
+  .font-lg-4 {
+    font-size: 0.875em;
+  }
+  .font-lg-5 {
+    font-size: 0.9375em;
+  }
+  .font-lg-6 {
+    font-size: 1em;
+  }
+  .font-lg-7 {
+    font-size: 1.0625em;
+  }
+  .font-lg-8 {
+    font-size: 1.125em;
+  }
+  .font-lg-9 {
+    font-size: 1.1875em;
+  }
+  .font-lg-10 {
+    font-size: 1.25em;
+  }
+  .font-lg-11 {
+    font-size: 1.3125em;
+  }
+  .font-lg-12 {
+    font-size: 1.375em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .font-xl-1 {
+    font-size: inherit;
+  }
+  .font-xl-2 {
+    font-size: 0.75em;
+  }
+  .font-xl-3 {
+    font-size: 0.8125em;
+  }
+  .font-xl-4 {
+    font-size: 0.875em;
+  }
+  .font-xl-5 {
+    font-size: 0.9375em;
+  }
+  .font-xl-6 {
+    font-size: 1em;
+  }
+  .font-xl-7 {
+    font-size: 1.0625em;
+  }
+  .font-xl-8 {
+    font-size: 1.125em;
+  }
+  .font-xl-9 {
+    font-size: 1.1875em;
+  }
+  .font-xl-10 {
+    font-size: 1.25em;
+  }
+  .font-xl-11 {
+    font-size: 1.3125em;
+  }
+  .font-xl-12 {
+    font-size: 1.375em;
+  }
+}
+/*# sourceMappingURL=bootstrap-gui.css.map */
