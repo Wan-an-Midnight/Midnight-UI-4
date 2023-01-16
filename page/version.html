@@ -24,7 +24,7 @@
 		    <meta name="viewport"content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		    <script src="../js/bootstrap.min.js"></script>
-			<script src="https://img.midnightnth.club/4.0/js/ver.js"></script>
+			<script src="https://img.midnightnth.club/4.0/version/developer_beta.js"></script>
 		    <script src="../js/popper.min.js"></script>
 		    <script src="../js/jquery-slim.min.js"></script>
 			<script src="../js/index.js"></script>
@@ -108,11 +108,11 @@
 								<p class="info-li-name">Build ID</p>
 								<p id="buildid" class="info-li-body" ></p>
 							</li>
-							<li onclick="check()" class="info-li">
+							<!-- <li onclick="check()" class="info-li">
 								<p class="info-li-name">检查更新</p>
 								<p id="upnew" class="info-li-body" style="display: none;font-size:15px;">已是最新版本</p>
 								<p id="uphave" class="info-li-body" style="display: none;">有新版本可用</p>
-							</li>
+							</li> -->
 							<a href="./update/HT2022211.html">
 							<li class="info-li">
 								<p class="info-li-name">版本更新</p>
@@ -178,7 +178,7 @@
 								<div class="copy-top">
 									<div class="copy">
 										<p class="cop">
-										Copyright ©2022 &nbsp;Junchen Yi&nbsp;&nbsp;Taohua Nong&nbsp;. 保留所有权利
+										Copyright ©<span id="copyyear" class="cpoyyear">%@</span> &nbsp;Junchen Yi&nbsp;&nbsp;Taohua Nong&nbsp;. 保留所有权利
 										</p>
 									
 									
