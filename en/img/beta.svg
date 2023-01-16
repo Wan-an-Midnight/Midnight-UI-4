@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="22" viewBox="0 0 52 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #933493;
+      }
+
+      .cls-2 {
+        font-size: 72px;
+        fill: #fefefe;
+        font-family: "PingFang SC";
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <rect id="矩形_1" data-name="矩形 1" class="cls-1" width="52" height="22" rx="10" ry="10"/>
+  <text id="BETA" class="cls-2" transform="matrix(0.205, 0, 0, 0.205, 5.441, 16.64)">BETA</text>
+</svg>
