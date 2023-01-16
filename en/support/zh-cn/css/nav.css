@@ -1,0 +1,206 @@
+/*
+ * @Author       : Junchen-Yi
+ * @Designer	 : Taohua-Nong
+ * @Date         : 2022-07-15 21:18:49
+ * @Program name : nav.css
+ * Copyright (c) 2022 by Junchen-Yi Taohua-Nong, All Rights Reserved. 
+ */
+
+.nav-logo{
+	width: 130px;
+	height: 35px;
+}
+ .navbar {
+    opacity: 0.95;
+    width: 100%;
+    position: fixed!important;
+    top: 0;
+    z-index: 10000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    /* background-image: url(../img/spb.png); */
+}
+@media (min-width: 768px)
+.navbar-expand-md {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.navbar-collapse{
+	height: 100%;
+}
+@media only screen and (max-width:768px)  {
+	
+
+.nav-item{
+	width: 100%;
+	height: 50px;
+	vertical-align: top;
+	border-bottom: #424245 solid 1px;
+	display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: flex-end;
+	    align-items: flex-start;
+	    align-content: center;
+		font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+		
+	
+}
+}
+.language-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar-brand-1{
+	    display: inline-block;
+	    padding-top: .3125rem;
+	    padding-bottom: .3125rem;
+	    margin-right: 1rem;
+	    font-size: 1.25rem;
+	    line-height: inherit;
+	    white-space: nowrap;
+		margin-left: 10px;
+}
+.navbar-toggler-1{
+	color: #FFFFFF;
+}
+.dark {
+    background-color: #000000;
+}
+.navbar-dark .navbar-nav .nav-link-1 {
+    color: #FFFFFF;
+	    padding-right: .5rem;
+	    padding-left: .5rem;
+		    display: block;
+		    padding: .5rem 1rem;
+			font-size:medium ;
+			bottom: 0;
+			font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+			
+}
+.navbar-toggler{
+	border: 0!important;
+		box-shadow: none!important;
+}
+.navbar-toggler:focus {
+	box-shadow: none; 
+}
+@media only screen and (max-width:768px) {
+.navbar-nav{
+	padding-top: 20px;
+	padding-bottom: 100%!important;
+	padding-left: 15px!important;
+	padding-right: 40px;
+}
+}
+.language {
+    border: solid 1px #fff;
+    background: url(../img/down-2.png);
+    padding-right: 20px;
+    padding-left: 5px;
+    background-repeat: no-repeat;
+    background-position: 18px 1px;
+    background-size: 18px 18px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-right: 20px;
+    border-color: rgba(0,0,0,0)!important;
+    background-color: rgba(0,0,0,0)!important;
+    /* background-color: #343a40; */
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.hamRotate.active {
+    transform: rotate(45deg);
+	width: 35px;
+}
+.ham8.active .top {
+    stroke-dashoffset: -64px;
+}
+
+.ham8 .top {
+    stroke-dasharray: 40 160;
+}
+.line {
+    fill: none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: #fff;
+    stroke-width: 5.5;
+    stroke-linecap: round;
+}
+.ham8.active .middle {
+    //stroke-dashoffset: -20px;
+    transform: rotate(90deg);
+}
+.ham8 .middle {
+    stroke-dasharray: 40 142;
+    transform-origin: 50%;
+    transition: transform 400ms;
+}
+.line {
+    fill: none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: #fff;
+    stroke-width: 5.5;
+    stroke-linecap: round;
+}
+.ham8.active .bottom {
+    stroke-dashoffset: -64px;
+}
+
+.ham8 .bottom {
+    stroke-dasharray: 40 85;
+    transform-origin: 50%;
+    transition: transform 400ms, stroke-dashoffset 400ms;
+}
+.version-nav{
+	display: none;	
+}
+
+@media only screen and (max-width:768px) {
+
+.version-nav{
+	display: block;
+	margin-top: 20px;
+	text-align: center;
+	color: #3f3f3f;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+}
+}
