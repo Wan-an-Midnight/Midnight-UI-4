@@ -100,11 +100,11 @@
 				<div class="chose">
 					<div class="chose-list">
 						<ul class="chose-list-ul">
-							<li onclick="rank_all()" class="chose-list-li" >
+							<!-- <li onclick="rank_all()" class="chose-list-li" >
 								<button id="rank-list-all" class="rank-button-after">全部比赛</button>
-							</li>
+							</li> -->
 							<li onclick="rank_climb()" class="chose-list-li">
-								<button id="rank-list-climb" class="rank-button-befor">爬坡赛</button>
+								<button id="rank-list-climb" class="rank-button-after">爬坡赛</button>
 							</li>
 							<li onclick="rank_go()" class="chose-list-li">
 								<button id="rank-list-go" class="rank-button-befor">冲刺比拼</button>
@@ -122,7 +122,7 @@
 				<div class="rank-item">
 					
 			<div id="ranking-climb-all" style="display: block;">
-				<div id="ranking-climb-none" class="rank-none" style="display: inherit;">
+				<div id="ranking-climb-none" class="rank-none" style="display: none;">
 					<p class="rank-none-p">暂无比赛数据</p>
 				</div>
 				<div id="ranking-climb-card">					
@@ -227,7 +227,7 @@
 			</div>	
 			
 			<div id="ranking-go-all" style="display: block;">
-				<div id="ranking-go-none" class="rank-none" style="display: inherit;">
+				<div id="ranking-go-none" class="rank-none" style="display: none;">
 					<p class="rank-none-p">暂无比赛数据</p>
 				</div>
 				<div id="ranking-go-card">	
@@ -283,7 +283,7 @@
 			</div>
 					
 			<div id="ranking-keep-all" style="display: block;">
-				<div id="ranking-keep-none" class="rank-none" style="display: inherit;">
+				<div id="ranking-keep-none" class="rank-none" style="display: none;">
 					<p class="rank-none-p">暂无比赛数据</p>
 				</div>
 				<div id="ranking-keep-card">
@@ -437,7 +437,7 @@
 									<div class="copy-top">
 										<div class="copy">
 											<p class="cop">
-											Copyright ©2022 &nbsp;Junchen Yi&nbsp;&nbsp;Taohua Nong&nbsp;. 保留所有权利
+											Copyright ©<span id="copyyear" class="cpoyyear">%@</span> &nbsp;Junchen Yi&nbsp;&nbsp;Taohua Nong&nbsp;. 保留所有权利
 											</p>
 										<div class="about-home">
 											<a class="link" href="about.html">关于我们</a>

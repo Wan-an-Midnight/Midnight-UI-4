@@ -27,7 +27,7 @@ function cn_text_index() {//index
 	document.getElementById("cn-index-li7").style.display = "inherit";
 	
 	document.getElementById("cn-index8").innerHTML="Midnight 视频";
-	document.getElementById("cn-index-li8").style.display = "inherit";
+	document.getElementById("cn-index-li8").style.display = "none";
 	
 	document.getElementById("cn-index9").innerHTML="关于";
 	document.getElementById("cn-index-li9").style.display = "inherit";
@@ -48,7 +48,7 @@ function cn_text_index() {//index
 	// 	}
 	document.getElementById("index-main").style.display = "block";
 	document.getElementById("skeleton").style.display = "none";
-	
+	document.getElementById("copyyear").innerHTML="2022";
 	// if(document.cookie.indexOf("a=hello")==-1){
 	// 	wel()
 	//     document.cookie="a=hello; expires=Thu, 26 Nov 2022 04:00:00 GMT";
@@ -81,7 +81,7 @@ function cn_text() {//other pages
 	document.getElementById("cn-index-li7").style.display = "inherit";
 	
 	document.getElementById("cn-index8").innerHTML="Midnight 视频";
-	document.getElementById("cn-index-li8").style.display = "inherit";
+	document.getElementById("cn-index-li8").style.display = "none";
 	
 	document.getElementById("cn-index9").innerHTML="关于";
 	document.getElementById("cn-index-li9").style.display = "inherit";
@@ -102,6 +102,7 @@ function cn_text() {//other pages
 	// 	}
 	document.getElementById("index-main").style.display = "block";
 	document.getElementById("skeleton").style.display = "none";
+	document.getElementById("copyyear").innerHTML="2022";
 	
 	
 

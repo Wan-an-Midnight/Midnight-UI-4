@@ -25,12 +25,13 @@
 	        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	        <link rel="stylesheet" href="https://www.guiplan.com/static/css/gui-ui.min.css">
 	        <link rel="stylesheet" href="https://www.guiplan.com/static/css/bootstrap-gui.min.css">
-			<script src="./js/skeleton.js"></script>
-	        <script src="./js/bootstrap.min.js"></script>
+<!-- 			<script src="./js/skeleton.js"></script>
+ -->	        <script src="./js/bootstrap.min.js"></script>
 	        <script src="./js/popper.min.js"></script>
 	        <script src="./js/jquery-slim.min.js"></script>
 			<script src="./js/index.js"></script>
 			<script src="./js/ranking.js"></script>
+			<script src="https://img.midnightnth.club/4.0/version/developer_beta.js"></script>
 			<script src="./js/dna.js"></script>
 	        <link rel="stylesheet" type="text/css" href="css/web_index.css" />
 			<link rel="apple-touch-icon" sizes="180x180" href="./img/180.png">
@@ -221,7 +222,7 @@
 								<div class="copy-top">
 									<div class="copy">
 										<p class="cop">
-										Copyright ©2022 &nbsp;Junchen Yi&nbsp;&nbsp;Taohua Nong&nbsp;. 保留所有权利
+										Copyright ©<span id="copyyear" class="cpoyyear">%@</span> &nbsp;Junchen Yi&nbsp;&nbsp;Taohua Nong&nbsp;. 保留所有权利
 										</p>
 									<div class="about-home">
 										<a class="link" href="https://www.midnightnth.club/about.html">关于我们</a>
@@ -235,6 +236,7 @@
 										<a class="link" href="http://support.midnightnth.club/en-us/">English</a>
 										
 									</div>
+									<div id="fooder-ver" style="display: none;"></div>
 							</section>					
 						</footer>
 	</body>

@@ -1,6 +1,6 @@
 function ver(){
-	document.getElementById("version").innerHTML="4.0 Public Beta 3";
-	document.getElementById("buildid").innerHTML="15A31b";
+	document.getElementById("version").innerHTML="4.0 beta 7";
+	document.getElementById("buildid").innerHTML="15A1151g";
 	
 }
 // function check(){
@@ -16,7 +16,7 @@ function ver(){
 // },2000 );  
 // }
 function index_ver(){
-	document.getElementById("version-nav").innerHTML="Midnight UI 4 Public Beta 3 (15A31b)"
-	document.getElementById("fooder-ver").innerHTML="4.0 Public Beta 3 (15A31b)"
+	document.getElementById("version-nav").innerHTML="Midnight UI 4 Developer Beta 7 (15A1151g)"
+	document.getElementById("fooder-ver").innerHTML="4.0 Beta 7 (15A1151g)"
 	
 }
